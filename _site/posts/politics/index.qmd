@@ -1,0 +1,14 @@
+---
+title: "Political Affairs"
+format:
+  html:
+    page-layout: full
+    theme: cosmo
+    css: ../styles.css
+    font:
+      heading: Merriweather
+      text: Inter
+---
+
+
+This is where you will find posts relating to current political affairs.

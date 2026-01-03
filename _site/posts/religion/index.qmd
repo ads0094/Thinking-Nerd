@@ -1,0 +1,14 @@
+---
+title: "Religion"
+format:
+  html:
+    page-layout: full
+    theme: cosmo
+    css: ../styles.css
+    font:
+      heading: Merriweather
+      text: Inter
+---
+
+
+Here you will find posts relating to the faith, spirituality and theology.

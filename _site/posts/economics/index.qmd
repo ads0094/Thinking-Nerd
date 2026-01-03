@@ -1,0 +1,13 @@
+---
+title: "Economics"
+format:
+  html:
+    page-layout: full
+    theme: cosmo
+    css: ../styles.css
+    font:
+      heading: Merriweather
+      text: Inter
+---
+
+This is where I talk about economic policy making, current economic topics, and academic economics

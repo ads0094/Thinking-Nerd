@@ -1,0 +1,24 @@
+---
+title: ""
+title-block: false
+page-layout: full
+---
+
+<div class="hero">
+  <h1>Politics</h1>
+  <p><em>Power. Law. Institutions</em></p>
+  <p>State • Society • Order</p>
+</div>
+
+```{=html}
+<div class="section-grey-politics">
+  <div class="content">
+    <p>This is where you will find posts relating to current political affairs.</p>
+  </div>
+
+  <footer class="site-footer">
+    © 2024 A Thinking Nerd — All thoughts my own.
+  </footer>
+</div>
+```
+

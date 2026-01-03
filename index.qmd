@@ -1,0 +1,46 @@
+---
+title: ""
+format: html
+page-layout: full
+---
+
+<div class="hero">
+  <h1>A Thinking <em>Nerd</em></h1><br>
+  <p>_Clarity. Insight. Context._<br></p>
+  <p>Institutions. Reason. Order. Faith</p>
+</div>
+
+<div class="section-grey">
+<div class="content">
+  <p><span class="highlight">_A Thinking Nerd_</span> is where I write to understand rather than to conclude. The topics range from economics and public policy to politics and theology, reflecting the questions I find myself returning to. Some posts are analytical, others reflective, but all are written as part of an ongoing effort to think carefully about the world and my place within it.</p>
+  </div>
+  <footer class="site-footer">
+  © 2024 A Thinking Nerd — All thoughts my own.
+</footer>
+</div>
+
+<!-- <div class="hero"> -->
+<!--   <h1>The Thinking _Nerd_</h1><br> -->
+<!--   <p>_Clarity. Insight. Context._<br></p> -->
+<!--   <p>Institutions. Reason. Order. Faith</p> -->
+<!-- </div> -->
+
+<!-- <div class="section-grey"> -->
+<!--   <div class="content"> -->
+<!--     <h2>About</h2> -->
+<!--     <p> -->
+<!--       <span class="highlight">_The Thinking Nerd_</span> is my personal space for exploring the ideas that shape both our inner lives and public realities. I write about the economic forces behind policy, the political structures that govern society, and the theological frameworks that give meaning to it all. Some posts are analytical, others spiritual, but all seek to understand the world with clarity. Whether it's macroeconomics or Scripture, public life or personal belief, this is my space for thinking aloud about the things that matter most. -->
+<!--     </p> -->
+<!--   </div> -->
+<!-- </div> -->
+
+
+
+<!-- <div class="placeholder"> -->
+<!--   <p><span class="highlight">_The Thinking Nerd_</span> is a personal space for exploring the ideas that shape both our inner lives and public realities. I write about the economic forces behind policy, the political structures that govern society, and the theological frameworks that give meaning to it all. Some posts are analytical, others spiritual — but all seek to understand the world with clarity, conviction, and care. Whether it's macroeconomics or Scripture, public life or personal belief, this is my space for thinking aloud about the things that matter most.</p> -->
+<!-- </div> -->
+
+<!-- <footer class="site-footer"> -->
+<!--   © 2024 The Thinking Nerd — All thoughts my own. -->
+<!-- </footer> -->
+

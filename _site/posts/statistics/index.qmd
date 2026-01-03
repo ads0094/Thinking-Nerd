@@ -1,0 +1,14 @@
+---
+title: "Statistics"
+format:
+  html:
+    page-layout: full
+    theme: cosmo
+    css: ../styles.css
+    font:
+      heading: Merriweather
+      text: Inter
+---
+
+
+In this section I will try to explain the key statistical concepts in simpler words. 

@@ -1,0 +1,25 @@
+---
+title: ""
+page-layout: full
+title-block: false
+---
+
+
+<div class="hero">
+  <h1>Statistics</h1>
+  <p><em>Data. Models. Inference.</em></p>
+  <p>Probability • Estimation • Uncertainty</p>
+</div>
+
+
+```{=html}
+<div class="section-grey-statistics">
+  <div class="content">
+    <p>This section contains blog posts on statistical topics</p>
+  </div>
+
+  <footer class="site-footer">
+    © 2024 A Thinking Nerd — All thoughts my own.
+  </footer>
+</div>
+```

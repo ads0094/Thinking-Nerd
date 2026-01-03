@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "The Thinking Nerd"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Posts
+        menu:
+          - text: Theology
+            href: Posts/Theology/index.qmd
+          - text: Economics
+            href: Posts/Economics/index.qmd
+          - text: Politics
+            href: Posts/Politics/index.qmd
+          - text: Statistics
+            href: Posts/Statistics/index.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    page-layout: full
+    toc: false
+    font:
+      heading: Merriweather
+      text: Inter
+
+
