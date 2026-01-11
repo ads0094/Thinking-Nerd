@@ -8,6 +8,8 @@ website:
     left:
       - text: Home
         href: index.qmd
+      - text: About me
+        href: about.qmd
       - text: Posts
         menu:
           - text: Theology

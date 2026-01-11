@@ -12,7 +12,7 @@ page-layout: full
 
 <div class="section-grey">
 <div class="content">
-  <p><span class="highlight">_A Thinking Nerd_</span> is where I write to understand rather than to conclude. The topics range from economics and public policy to politics and theology, reflecting the questions I find myself returning to. Some posts are analytical, others reflective, but all are written as part of an ongoing effort to think carefully about the world and my place within it.</p>
+  <p><span class="highlight">_A Thinking Nerd_</span> is where I write to understand rather than to conclude. The topics range from economics and public policy to politics and theology, reflecting the questions I find myself returning to. Some posts are analytical, others reflective, but all are written as part of an ongoing effort to think carefully about the world and my place within it - Aryan Sultan.</p>
   </div>
   <footer class="site-footer">
   © 2024 A Thinking Nerd — All thoughts my own.

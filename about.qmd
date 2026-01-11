@@ -1,0 +1,27 @@
+---
+title: ""
+format: html
+page-layout: full
+---
+
+<div class="hero">
+  <h1>A Thinking <em>Nerd</em></h1><br>
+  <p>_Clarity. Insight. Context._<br></p>
+  <p>Institutions. Reason. Order. Faith</p>
+</div>
+
+<div class="section-grey">
+<div class="content">
+  <p> My interests mainly lie in economics, geo-politics and applied statistics. My work sits between theory and practice, with a focus on how models are used in real settings where uncertainty, data limitations, and human judgement matter as much as technical skill.
+
+I hold a bachelor’s degree in economics and a master’s degree in business analytics. I am interested in working in the field of economics, and in pursuing further study in statistics over time.
+
+This blog is where I document what I am learning and work through questions about economics, data, and decision-making. It is a record of ideas, arguments, and problems I am still trying to understand.
+
+I host the Forecasting Impact Podcast, exploring forecasting applications across industry and academia.</p>
+
+  </div>
+  <footer class="site-footer">
+  © 2024 A Thinking Nerd — All thoughts my own.
+</footer>
+</div>
