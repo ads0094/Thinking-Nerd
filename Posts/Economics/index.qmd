@@ -10,7 +10,7 @@ page-layout: full
   <p>Macro • Micro • Institutions</p>
 </div>
 
-
+```{=html}
 <div class="section-grey">
   <div class="content">
     <p>This is where I talk about economic policy, current topics, and academic economics.</p>
@@ -23,4 +23,5 @@ page-layout: full
   </footer>
 </div>
 
+```
 
