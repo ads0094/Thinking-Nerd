@@ -271,3 +271,15 @@ main {
   font-weight: 600;
 }
 
+.blog-link {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: #0b2c5f;
+  text-decoration: none;
+}
+
+.blog-link:hover {
+  text-decoration: underline;
+}
+
