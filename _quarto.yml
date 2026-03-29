@@ -4,6 +4,7 @@ project:
 
 website:
   title: "The Thinking Nerd"
+  open-graph: true
   navbar:
     left:
       - text: Home
@@ -30,5 +31,3 @@ format:
     font:
       heading: Merriweather
       text: Inter
-
-
