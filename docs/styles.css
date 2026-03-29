@@ -273,8 +273,8 @@ main {
 
 .blog-link {
   display: block;
-  margin-bottom: 1rem;
-  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.8 rem;
   color: #0b2c5f;
   text-decoration: none;
 }
