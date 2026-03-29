@@ -1,0 +1,58 @@
+---
+title: ""
+title-block: false
+page-layout: full
+bibliography: references.bib
+link-citations: true
+---
+
+::: hero
+<h1>Strait of Hormuz</h1>
+
+<p><em>Between desert silence and global panic lies the Strait of Hormuz</em></p>
+
+<p>Iran-Israel Conflict • Energy Markets • Uncertain Future</p>
+:::
+
+:::::: section-grey
+::::: content
+<p>For years, the Strait of Hormuz has sat in economic analysis as a known vulnerability. Markets understood the risks and policymakers modelled it, but it remained, in practice, open. That assumption is now under pressure. What the current Iran–Israel escalation has done is turn a theoretical chokepoint into an active economic constraint. Roughly a fifth of global oil consumption and a significant share of LNG trade move through Hormuz. Now this flow is disrupted and the effects are immediate and global.[@eia2025_hormuz_chokepoint; @eia2025_hormuz_lng]</p>
+
+<p>The first thing to understand is that markets do not need a total blockade to produce a major price shock. Shipping disruption begins well before traffic falls to zero. Tanker owners pull back, insurers reprice risk, charter rates rise, crews become harder to place, and buyers start paying up for cargoes that avoid the Gulf altogether. Reuters reported this month that hull war-risk premiums jumped to around 3% of vessel value, implying roughly \$7.5 million of cover for a typical tanker, up from about 0.25%, or around \$625,000, before the conflict. That is not a marginal cost. It is large enough to alter routing, delay sailings and push freight costs directly into delivered energy prices. [@reuters2026_maritime_insurance]</p>
+
+<p>That is why the transmission mechanism matters as much as the headline volume at risk. The shock operates through three channels at once.</p>
+
+<p>First, there is the physical constraint. If Gulf exports cannot leave safely, then for the rest of the world those barrels may as well not exist. This is especially serious because the Gulf is not just a large supplier; it is where a large share of global spare capacity is concentrated. Reuters noted in March that spare capacity elsewhere is not sufficient to offset a sustained interruption to Hormuz flows. Barclays estimated that a prolonged disruption could remove 13 to 14 million barrels per day from the market even after accounting for alternative export routes such as Yanbu and Fujairah.[@reuters2026_barclays_hormuz] [@reuters2026_yanbu_exports] \[[@reuters2026_barclays_hormuz]</p>
+
+<p>Second, there is the cost channel. Even when cargoes still move, they move under worse conditions. More expensive insurance, higher freight rates, longer voyage times and tighter vessel availability all raise the landed cost of oil and gas. Those costs do not stay in shipping markets. They feed quickly into refinery margins, wholesale fuel prices and electricity generation costs, especially in import-dependent economies. The International Energy Agency has also noted that the conflict is hitting refined-product markets directly: Gulf producers exported 3.3 million barrels per day of refined products and 1.5 million barrels per day of LPG in 2025, and parts of that export system are already under strain.\[iea2026_omr_marc\]</p>
+
+<p>Third, there is market behaviour. Once traders think a route is unreliable, the repricing broadens beyond the disrupted corridor itself. Crudes that can bypass Hormuz start trading at a premium. LNG buyers compete harder for Atlantic Basin cargoes. Importers draw down inventories, governments start talking about emergency releases, and hedging demand increases. Reuters reported on 27 March that Brent had already surged more than 50% since the war began, briefly topping \$119 per barrel, with analysts warning that further escalation could drive prices materially higher. This is how a regional military crisis turns into a global terms-of-trade shock. [@reuters2026_oil_elevated]</p>
+
+<p>The inflationary consequences are not hard to trace. Higher crude prices raise petrol and diesel costs. Higher gas prices lift electricity prices in systems where gas still sets the marginal power price. Fertiliser costs increase because ammonia and urea production are heavily exposed to gas and petrochemical inputs. Freight becomes more expensive, pushing up costs for food, manufactured goods and retail distribution. In other words, this is not just an “oil story.” It is an input-cost shock that spreads through energy, transport, chemicals and food. Recent reporting has already pointed to stress in fertilisers, petrochemical feedstocks and energy-intensive manufacturing as Gulf disruption deepens. [@thetimes2026_energy_crisis]</p>
+
+<p>From a macroeconomic perspective, this is a classic adverse supply shock, but with a very modern shape. The issue is not merely that the world may have less oil and gas. The issue is that the energy system is highly optimised around secure maritime movement through a handful of chokepoints. When one of those chokepoints becomes dangerous, the loss is not only in volume; it is also in flexibility, timing and confidence. That matters because central banks cannot pump more oil, governments cannot legislate away marine insurance premia, and strategic reserves can only smooth the disruption for a while. [@reuters2026_australia_fuel_security]</p>
+
+<p>Strategic reserves still matter, but they are often misunderstood. They can offset some immediate supply loss and buy policymakers time. What they cannot do is restore normal shipping conditions. They do not make shipowners more willing to enter a conflict zone, they do not bring down war-risk pricing, and they do not recreate the spare logistical capacity that disappears once vessels are delayed or withdrawn. The policy question, then, is not simply whether countries have stockpiles. It is whether disruption lasts long enough to change behaviour: sourcing patterns, refinery runs, industrial production plans and inflation expectations.</p>
+
+<p>Duration is the line between a nasty market event and a broader macro problem. If disruption lasts days or a few weeks, markets can stabilise at a higher but still manageable price level. If it lasts months, firms start rewriting procurement plans, governments intervene more aggressively, and the inflation shock becomes harder to contain. That is the lesson from earlier oil crises: what begins as an energy disruption does not stay neatly inside the energy sector for long.</p>
+
+<p>Australia is not insulated just because it sits far from the Gulf. Energy is globally priced, and Australia remains deeply exposed to imported liquid fuels. Reuters reported this week that Australia imports about 90% of its fuel, while the government cited reserves of roughly 39 days of petrol and 30 days of diesel and jet fuel. That means a Hormuz shock reaches Australia less through direct Gulf dependency than through import pricing, freight costs, supply-chain tightness and competition for replacement cargoes from Asia. In an integrated market, distance offers far less protection than people assume.[@reuters2026_australia_supply]</p>
+
+<p>The broader point is straightforward. The global economy is efficient, but it is not especially resilient to concentrated logistical risk. Hormuz is the clearest example. In normal times it is just a shipping lane. In a crisis it becomes a price-setting constraint for oil, gas, shipping, inflation and policy. That is what markets are repricing now: not merely the possibility of war, but the economic reality that one narrow waterway still carries too much of the world’s energy system.</p>
+
+### References
+
+::: {#refs}
+:::
+
+::: share-box
+<strong>Share this post:</strong> <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://ads0094.github.io/Thinking-Nerd/Posts/Economics/Hormuz.html" target="_blank" rel="noopener noreferrer">LinkedIn</a> <a href="https://twitter.com/intent/tweet?url=https://ads0094.github.io/Thinking-Nerd/Posts/Economics/Hormuz.html&text=Thought-provoking read from The Thinking Nerd" target="_blank" rel="noopener noreferrer">X/Twitter</a> <a href="https://www.facebook.com/sharer/sharer.php?u=https://ads0094.github.io/Thinking-Nerd/Posts/Economics/Hormuz.html" target="_blank" rel="noopener noreferrer">Facebook</a>
+:::
+:::::
+
+<footer class="site-footer">
+
+© 2024 A Thinking Nerd — All thoughts my own.
+
+</footer>
+::::::
