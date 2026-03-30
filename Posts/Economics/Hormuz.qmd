@@ -14,8 +14,8 @@ link-citations: true
 <p>Iran-Israel Conflict • Energy Markets • Uncertain Future</p>
 :::
 
-:::::: section-grey
-::::: content
+::::: section-grey
+:::: content
 For years, the Strait of Hormuz was treated as a textbook vulnerability: obvious, heavily modelled, and easy to mention in market commentary, but rarely binding in practice. That is no longer true. In 2024 and early 2025, roughly 20 million barrels per day of crude oil, condensate and refined products moved through Hormuz, equivalent to more than one-quarter of global seaborne oil trade and about one-fifth of global oil consumption. The same chokepoint also handled about 20% of global LNG trade, overwhelmingly from Qatar and the UAE. Once traffic through a corridor with that kind of throughput is disrupted, the effect is global almost immediately. ([U.S. Energy Information Administration](https://www.eia.gov/todayinenergy/detail.php?id=65504&utm_source=chatgpt.com "Amid regional conflict, the Strait of Hormuz remains critical ..."))
 
 The first thing to understand is that markets do not need a total blockade to produce a major price shock. Shipping disruption begins well before traffic falls to zero. Tanker owners pull back, insurers reprice risk, charter rates rise, crews become harder to place, and buyers start paying up for cargoes that avoid the Gulf altogether. Reuters reported this month that hull war-risk premiums jumped to around 3% of vessel value, implying roughly \$7.5 million of cover for a typical tanker, up from about 0.25%, or around \$625,000, before the conflict. That is not a marginal cost. It is large enough to alter routing, delay sailings and push freight costs directly into delivered energy prices. ([Reuters](https://www.reuters.com/world/middle-east/maritime-insurance-premiums-surge-iran-conflict-widens-2026-03-06/?utm_source=chatgpt.com "Maritime insurance premiums surge as Iran conflict widens"))
@@ -42,19 +42,14 @@ The broader point is straightforward. The global economy is efficient, but it is
 
 If you want, I can also turn this into a tighter op-ed style piece or a more institutional note that sounds like it came from a bank, Treasury, or sell-side research desk.
 
-### References
-
-::: {#refs}
-:::
-
 ::: share-box
 <strong>Share this post:</strong> <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://ads0094.github.io/Thinking-Nerd/Posts/Economics/Hormuz.html" target="_blank" rel="noopener noreferrer">LinkedIn</a> <a href="https://twitter.com/intent/tweet?url=https://ads0094.github.io/Thinking-Nerd/Posts/Economics/Hormuz.html&text=Thought-provoking read from The Thinking Nerd" target="_blank" rel="noopener noreferrer">X/Twitter</a> <a href="https://www.facebook.com/sharer/sharer.php?u=https://ads0094.github.io/Thinking-Nerd/Posts/Economics/Hormuz.html" target="_blank" rel="noopener noreferrer">Facebook</a>
 :::
-:::::
+::::
 
 <footer class="site-footer">
 
 © 2024 A Thinking Nerd — All thoughts my own.
 
 </footer>
-::::::
+:::::
