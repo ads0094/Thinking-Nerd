@@ -1,0 +1,60 @@
+---
+title: ""
+title-block: false
+page-layout: full
+link-citations: true
+---
+
+::: hero
+<h1>Post COVID Electricity demand: the Sydney-Melbourne story</h1>
+
+<p><em>How lockdowns, hybrid work and rooftop solar changed electricity consumption across NSW and Victoria</em></p>
+
+<p>Energy • Post-Pandemic Australia • New Reality</p>
+:::
+
+:::: section-grey
+::: content
+
+Published:
+July 24, 2026
+
+COVID-19 relocated electricity demand in Australia. When offices, shops and universities closed between 2020 and 2022, commercial consumption fell while households used more power during the day. Since then, economic reopening, hybrid work, electrification and rapid rooftop solar adoption have created a demand profile that looks noticeably different from the pre-pandemic one.
+
+Rooftop solar was already reshaping grid demand before COVID. In the final quarter of 2019, an estimated 1,950 MW of new rooftop capacity and stronger solar output reduced average midday demand across the National Electricity Market by almost 1,000 MW. In NSW, additional rooftop solar helped average operational demand fall by 122 MW, while Victoria recorded a 68 MW increase, partly because heating and cooling demand was stronger (AEMO, 2020a).
+
+During April - June 2020, operational demand across the National Electricity Market fell by 2%, or 429 MW, compared with the same quarter of 2019. The first lockdown dramatically changed where electricity was consumed. AEMO estimated that COVID-related behavioural and economic changes reduced demand by 2.1%, while additional rooftop solar reduced it by another 1.2%; colder weather and additional heating partially offset those reductions. Commercial loads were generally 10 - 20% lower, household demand rose, and large industrial consumption was broadly stable (AEMO, 2020b).
+
+The effects were different in NSW and Victoria: average operational demand fell by approximately 192 MW in NSW but only 26 MW in Victoria. AEMO estimated that Victorian commercial demand declined by around 276 MW during April and May, while residential consumption increased by approximately 248 MW. In NSW, the modelled COVID-related reduction was greatest in April - about 5% - before easing to around 1% in May and June (AEMO, 2020b).
+
+Melbourne’s strict lockdowns produced an especially clear geographic divide. Victorian household consumption was around 20% higher in the second quarter of 2020, while business demand was generally 10 - 15% lower. Some central-business-district locations experienced falls of more than 30%. Six high consumption suburbs, including Melbourne’s CBD, accounted for much of the statewide decline even though most postcode areas used more electricity (Energy Networks Australia, 2020). These figures are not weather-normalised, however, so Victoria’s colder conditions must be considered.
+
+Peer-reviewed household research supports this pattern. A study of 491 Australian homes found that weekday household electricity consumption increased by 19.1% among the Victorian sample during lockdown. Daytime consumption between 9 am and 5 pm rose by 14.8%. The NSW/ACT sample recorded a smaller 4.3% increase that was not statistically significant. The researchers linked Victoria’s larger increase to greater daytime occupancy and heating requirements during cooler weather (Snow et al., 2020).
+
+Sydney’s commercial buildings tell the opposite story. Research covering five University of Technology Sydney buildings found lockdown-period electricity reductions ranging from roughly 16 - 20% in several buildings and as much as 51% in another. In one building, weekday occupancy fell by 83%, but peak-period electricity consumption declined by only 30%. Ventilation, security, laboratories and other fixed systems continued operating, meaning electricity consumption per remaining occupant actually increased (Tavakoli et al., 2023).
+
+Ausgrid’s City of Sydney data provide a broader local indication. Between 2018-19 and 2020-21, reported small-and-medium-business consumption fell from approximately 766 GWh to 646 GWh - a 15.6% reduction - while large low-voltage consumption fell about 14.7%. Residential consumption declined by only 1.5%. By 2023-24, business consumption had partly recovered but remained below its 2018-19 level. These calculations are based on Ausgrid’s published LGA data and exclude high-voltage customers; they should therefore be treated as an indication rather than a complete measure of Greater Sydney demand (Ausgrid, 2019-2024).
+
+Recovery did not occur in a straight line. NSW’s underlying demand remained lower during the Delta lockdowns in the third quarter of 2021, when restrictions and mild weather reduced demand by about 72 MW. Yet the state also recorded a strong winter maximum during a cold spell, illustrating how weather can outweigh broader economic conditions over short periods (AEMO, 2021). In the third quarter of 2022, operational demand rebounded by 4.4% in NSW and 3% in Victoria compared with lockdown-affected 2021, although cooler weather also contributed to the increase (AEMO, 2022).
+
+The post-pandemic distinction between total electricity use and demand from the grid is increasingly important. AEMO defines underlying demand as grid-supplied electricity plus estimated behind-the-meter solar generation. In the fourth quarter of 2024, underlying demand increased by 1.9% in NSW and 3.8% in Victoria, while operational grid demand fell slightly in both states because rooftop solar supplied more daytime electricity (AEMO, 2025a). By the fourth quarter of 2025, rooftop capacity had reached approximately 8.4 GW in NSW and 5.6 GW in Victoria, more than double their 2020 levels (AEMO, 2026).
+
+At the same time, winter peaks remain important. Victoria set a winter demand record of 8,612 MW during a July 2024 cold snap, reinforcing the role of electric heating on cold, low-solar evenings (The Guardian, 2024).
+
+The broad conclusion is that the pandemic accelerated changes already underway. Sydney and Melbourne shifted electricity from commercial centres into homes, and hybrid work has preserved part of that redistribution: 36% of employed Australians still usually worked from home in August 2025, compared with 40% in 2021 (ABS, 2025). Meanwhile, rooftop solar continues to lower midday grid demand and push system peaks towards the evening. The challenge is therefore no longer simply supplying more electricity - it is managing sharper peaks, deeper daytime troughs and a demand profile increasingly shaped by weather, flexible work and consumer-owned energy resources.
+
+### References
+
+* [AEMO (2020a), *Quarterly Energy Dynamics: Q4 2019*](https://www.aemo.com.au/-/media/files/major-publications/qed/2019/qed-q4-2019.pdf)
+* [AEMO (2020b), *Quarterly Energy Dynamics: Q2 2020*](https://www.aemo.com.au/-/media/files/major-publications/qed/2020/qed-q2-2020.pdf)
+* [AEMO (2021), *Quarterly Energy Dynamics: Q3 2021*](https://www.aemo.com.au/-/media/files/major-publications/qed/2021/q3-report.pdf?la=en)
+* [AEMO (2022), *Quarterly Energy Dynamics: Q3 2022*](https://www.aemo.com.au/-/media/files/major-publications/qed/2022/qed-q3-2022.pdf)
+* [AEMO (2025a), *Quarterly Energy Dynamics: Q4 2024*](https://www.aemo.com.au/-/media/files/major-publications/qed/2024/qed-q4-2024.pdf)
+* [AEMO (2026), *Quarterly Energy Dynamics: Q4 2025*](https://www.aemo.com.au/-/media/files/major-publications/qed/2025/qed-q4-2025.pdf)
+* [Australian Bureau of Statistics (2025), *Working arrangements, August 2025*](https://www.abs.gov.au/statistics/labour/earnings-and-working-conditions/working-arrangements/latest-release)
+* [Ausgrid, *Average electricity use: LGA reports and datasets*](https://www.ausgrid.com.au/about-us/about-ausgrid/research-data-sets/average-electricity-use)
+* [Energy Networks Australia (2020), *Mapping the impact of COVID-19 on electricity demand*](https://www.energynetworks.com.au/news/energy-insider/2020-energy-insider/mapping-the-impact-of-covid-19-on-electricity-demand/)
+* [Snow et al. (2020), “Drivers behind Residential Electricity Demand Fluctuations Due to COVID-19 Restrictions”, *Energies*, 13(21), 5738](https://doi.org/10.3390/en13215738)
+* [Tavakoli et al. (2023), “Impact of COVID-19 Pandemic on Energy Consumption in Office Buildings”, *Sustainability*, 15(5), 4240](https://doi.org/10.3390/su15054240)
+* [Yan and Han (2023), “The impact of rooftop solar on wholesale electricity demand in the Australian National Electricity Market”, *Frontiers in Energy Research*](https://doi.org/10.3389/fenrg.2023.1197504)
+
