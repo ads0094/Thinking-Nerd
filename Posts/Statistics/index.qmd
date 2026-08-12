@@ -1,25 +1,34 @@
 ---
 title: ""
-page-layout: full
 title-block: false
+page-layout: full
+body-classes: thinking-category-page category-statistics
+description: "Writing on data, models and uncertainty from A Thinking Nerd."
 ---
 
+::: category-hero
+::: category-hero-inner
+<p class="category-number">03 / STATISTICS</p>
 
-<div class="hero">
-  <h1>Statistics</h1>
-  <p><em>Data. Models. Inference.</em></p>
-  <p>Probability • Estimation • Uncertainty</p>
-</div>
+# Data, models and what uncertainty permits us to say.
 
+<p class="category-deck">A developing collection of writing on statistical reasoning, forecasting, inference and the limits of evidence.</p>
 
-```{=html}
-<div class="section-grey-statistics">
-  <div class="content">
-    <p>This section contains blog posts on statistical topics</p>
-  </div>
+<div class="category-keywords"><span>Probability</span><span>Inference</span><span>Uncertainty</span></div>
+:::
+:::
 
-  <footer class="site-footer">
-    © 2024 A Thinking Nerd — All thoughts my own.
-  </footer>
-</div>
-```
+::: category-content
+<p class="category-label">STATISTICAL WRITING</p>
+
+## This section is taking shape
+
+::: category-empty
+<span>03</span>
+<strong>The questions are here. The articles are coming.</strong>
+<p>This section will contain work on statistical ideas, models and applied forecasting as the collection develops.</p>
+<a href="../../index.html#featured">View the featured forecasting project</a>
+:::
+:::
+
+<footer class="category-footer">© 2026 A Thinking Nerd | All thoughts my own.</footer>

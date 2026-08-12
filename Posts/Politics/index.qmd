@@ -2,24 +2,36 @@
 title: ""
 title-block: false
 page-layout: full
+body-classes: thinking-category-page category-politics
+description: "Writing on politics, power and institutions from A Thinking Nerd."
 ---
 
-<div class="hero">
-  <h1>Politics</h1>
-  <p><em>Power. Law. Institutions</em></p>
-  <p>State • Society • Order</p>
-</div>
+::: category-hero
+::: category-hero-inner
+<p class="category-number">02 / POLITICS</p>
 
-```{=html}
-<div class="section-grey-politics">
-  <div class="content">
-    <p>This is where you will find posts relating to current political affairs.</p>
-    <a href="Iranian_protests.html" class="blog-link">Iran at the Threshold of Transition</a>
-  </div>
+# Power, institutions and the shape of political change.
 
-  <footer class="site-footer">
-    © 2024 A Thinking Nerd — All thoughts my own.
-  </footer>
-</div>
-```
+<p class="category-deck">Writing on current political affairs, state power and the institutions that hold political systems together.</p>
 
+<div class="category-keywords"><span>State</span><span>Society</span><span>Order</span></div>
+:::
+:::
+
+::: category-content
+<p class="category-label">POLITICAL WRITING</p>
+
+## Current analysis
+
+::: category-list
+<a class="category-entry category-entry-featured" href="Iranian_protests.html"><span class="entry-index">01</span><span class="entry-copy"><small>IRAN · POLITICAL TRANSITION</small><strong>Iran at the threshold of transition</strong><em>Regional deterrence, domestic authority and the political foundations of the Islamic Republic.</em></span><span class="entry-arrow">→</span></a>
+:::
+
+::: category-note
+<strong>More political writing will appear here.</strong>
+
+This section will grow as I continue examining political institutions and current affairs.
+:::
+:::
+
+<footer class="category-footer">© 2026 A Thinking Nerd | All thoughts my own.</footer>

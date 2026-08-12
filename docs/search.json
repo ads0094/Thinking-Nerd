@@ -2,9 +2,9 @@
   {
     "objectID": "Posts/Theology/index.html",
     "href": "Posts/Theology/index.html",
-    "title": "\nTheology\n",
+    "title": "Scripture, tradition and the search for meaning.",
     "section": "",
-    "text": "Theology\n\n\nScripture. Tradition. Meaning.\n\n\nText • History • Interpretation\n\n\n\n  \n    This section contains blog posts on theology.\n  \n\n  \n    © 2024 A Thinking Nerd — All thoughts my own."
+    "text": "04 / THEOLOGY\n\n\n\n\nA developing space for reflection on theological texts, history, interpretation and belief.\n\n\nTextHistoryInterpretation"
   },
   {
     "objectID": "Posts/Politics/Iranian_protests.html",
@@ -79,9 +79,9 @@
   {
     "objectID": "Posts/Economics/index.html",
     "href": "Posts/Economics/index.html",
-    "title": "\nEconomics\n",
+    "title": "Policy, markets and the incentives beneath them.",
     "section": "",
-    "text": "Economics\n\n\nPolicy. Markets. Incentives.\n\n\nMacro • Micro • Institutions\n\n\n\n  \n    This is where I talk about economic policy, current topics, and academic economics.\n    What drives Victoria's electricity demand?\n    Post COVID Electricity demand: the Sydney-Melbourne story\n    The Strait of Hormuz and Southeast Asia’s Manufacturing Risk\n    Free Public Transport for Victorians\n    Strait of Hormuz\n    \n  \n\n  \n    © 2024 A Thinking Nerd — All thoughts my own."
+    "text": "01 / ECONOMICS\n\n\n\n\nWriting on economic policy, energy, trade and the institutions that shape real decisions.\n\n\nMacroMicroInstitutions"
   },
   {
     "objectID": "Posts/Economics/Fuel-Prices-Policy.html",
@@ -100,16 +100,16 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "\nA Thinking Nerd\n",
+    "title": "Ideas are clean. Reality rarely is.",
     "section": "",
-    "text": "A Thinking Nerd\n\n\n\nClarity. Insight. Context.\n\n\nInstitutions. Reason. Order. Faith\n\n\n\n\n\nI am interested in economics, geopolitics, and applied statistics, particularly in the gap between elegant theory and messy reality. Models matter, but so do incentives, institutions, uncertainty, and the limits of the data in front of you.\nMy academic background is in economics and business analytics. I want to work in economics, and in time I hope to pursue deeper study in statistics as well.\nThis blog is where I work through ideas in public. Sometimes that means writing about policy or markets. Sometimes it means testing an argument, following a question further than expected, or trying to understand why a neat model breaks down in practice.\nI also host the Forecasting Impact Podcast, focused on forecasting across industry and academia.\n\n\n\n© 2024 A Thinking Nerd — All thoughts my own."
+    "text": "ABOUT ARYAN SULTAN\n\n\n\n\nI am interested in economics, geopolitics and applied statistics, particularly the gap between elegant theory and the complicated world it is meant to explain.\n\n\n\n\nWHAT GUIDES THE WORK Models Incentives Institutions Uncertainty"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Thinking through the world, one question at a time.",
     "section": "",
-    "text": "ARYAN SULTAN’S NOTES ON IDEAS AND EVIDENCE\n\n\n\n\nEconomics, public policy, politics, statistics and theology—examined with clarity, context and an interest in where tidy ideas meet messy reality.\n\n\nStart reading About me\n\n\n\n\n\nTHE THINKING NERD\n\n\n“I write to understand rather than to conclude.”\n\n\nClarity · Insight · Context"
+    "text": "ARYAN SULTAN’S NOTES ON IDEAS AND EVIDENCE\n\n\n\n\nI explore economics, public policy, politics, statistics and theology with clarity, context and an interest in where tidy ideas meet messy reality.\n\n\nStart reading About me\n\n\n\n\n\nTHE THINKING NERD\n\n\n“I write to understand rather than to conclude.”\n\n\nClarity · Insight · Context"
   },
   {
     "objectID": "Posts/Economics/Electricity-Demand.html",
@@ -135,23 +135,23 @@
   {
     "objectID": "Posts/Politics/index.html",
     "href": "Posts/Politics/index.html",
-    "title": "\nPolitics\n",
+    "title": "Power, institutions and the shape of political change.",
     "section": "",
-    "text": "Politics\n\n\nPower. Law. Institutions\n\n\nState • Society • Order\n\n\n\n  \n    This is where you will find posts relating to current political affairs.\n    Iran at the Threshold of Transition\n  \n\n  \n    © 2024 A Thinking Nerd — All thoughts my own."
+    "text": "02 / POLITICS\n\n\n\n\nWriting on current political affairs, state power and the institutions that hold political systems together.\n\n\nStateSocietyOrder"
   },
   {
     "objectID": "Posts/Statistics/index.html",
     "href": "Posts/Statistics/index.html",
-    "title": "\nStatistics\n",
+    "title": "Data, models and what uncertainty permits us to say.",
     "section": "",
-    "text": "Statistics\n\n\nData. Models. Inference.\n\n\nProbability • Estimation • Uncertainty\n\n\n\n  \n    This section contains blog posts on statistical topics\n  \n\n  \n    © 2024 A Thinking Nerd — All thoughts my own."
+    "text": "03 / STATISTICS\n\n\n\n\nA developing collection of writing on statistical reasoning, forecasting, inference and the limits of evidence.\n\n\nProbabilityInferenceUncertainty"
   },
   {
     "objectID": "index.html#what-drives-victorias-electricity-demand",
     "href": "index.html#what-drives-victorias-electricity-demand",
     "title": "Thinking through the world, one question at a time.",
     "section": "What drives Victoria’s electricity demand?",
-    "text": "What drives Victoria’s electricity demand?\nSeven years of half-hourly demand data reveal clear daily and seasonal rhythms, a U-shaped relationship with temperature, and the value—and limits—of weather-aware forecasting.\n\n\n122,736observations\n\n\n2019–2025study period\n\n\n333 MWbest average error\n\n\nRead the project story"
+    "text": "What drives Victoria’s electricity demand?\nSeven years of half-hourly demand data reveal clear daily and seasonal rhythms, a U-shaped relationship with temperature, and both the value and limits of weather-aware forecasting.\n\n\n122,736observations\n\n\n2019 to 2025study period\n\n\n333 MWbest average error\n\n\nRead the project story"
   },
   {
     "objectID": "index.html#questions-i-have-been-exploring",
@@ -173,5 +173,54 @@
     "title": "Thinking through the world, one question at a time.",
     "section": "Models matter. So do their limits.",
     "text": "Models matter. So do their limits.\nI am interested in economics, geopolitics and applied statistics, particularly in the gap between elegant theory and messy reality. This site is where I work through those ideas in public."
+  },
+  {
+    "objectID": "about.html#models-matter.-so-do-their-limits.",
+    "href": "about.html#models-matter.-so-do-their-limits.",
+    "title": "Ideas are clean. Reality rarely is.",
+    "section": "Models matter. So do their limits.",
+    "text": "Models matter. So do their limits.\nModels help organise our thinking, but they do not remove uncertainty. The assumptions we make, the incentives people face, the institutions surrounding a problem and the limits of the available data all shape what a model can tell us.\nThe tension between useful abstraction and messy reality connects much of my writing."
+  },
+  {
+    "objectID": "about.html#conversations-about-forecasting",
+    "href": "about.html#conversations-about-forecasting",
+    "title": "Ideas are clean. Reality rarely is.",
+    "section": "Conversations about forecasting",
+    "text": "Conversations about forecasting\nI also host the Forecasting Impact Podcast, focused on forecasting across industry and academia."
+  },
+  {
+    "objectID": "about.html#explore-the-questions-behind-the-site",
+    "href": "about.html#explore-the-questions-behind-the-site",
+    "title": "Ideas are clean. Reality rarely is.",
+    "section": "Explore the questions behind the site",
+    "text": "Explore the questions behind the site\n\nEconomicsPolicy, markets and incentives PoliticsPower, law and institutions StatisticsData, models and uncertainty TheologyScripture, tradition and meaning"
+  },
+  {
+    "objectID": "Posts/Economics/index.html#recent-analysis-and-commentary",
+    "href": "Posts/Economics/index.html#recent-analysis-and-commentary",
+    "title": "Policy, markets and the incentives beneath them.",
+    "section": "Recent analysis and commentary",
+    "text": "Recent analysis and commentary\n\n01DATA PROJECT · ENERGY · FORECASTINGWhat drives Victoria’s electricity demand?Seven years of half-hourly demand data, weather effects and forecast evaluation.→\n02ENERGY · POST-PANDEMIC AUSTRALIAPost-COVID electricity demandHow lockdowns, hybrid work and rooftop solar changed demand in Sydney and Melbourne.→\n03ENERGY · FREIGHT · MANUFACTURINGSoutheast Asia’s manufacturing riskWhy manufacturers need to plan for disruption in the Strait of Hormuz.→\n04COST OF LIVING · PUBLIC POLICYFree public transport for VictoriansA month of free travel and the harder policy question beneath it.→\n05ENERGY MARKETS · GEOPOLITICSStrait of HormuzBetween desert silence and global panic lies a narrow and consequential waterway.→"
+  },
+  {
+    "objectID": "Posts/Politics/index.html#current-analysis",
+    "href": "Posts/Politics/index.html#current-analysis",
+    "title": "Power, institutions and the shape of political change.",
+    "section": "Current analysis",
+    "text": "Current analysis\n\n01IRAN · POLITICAL TRANSITIONIran at the threshold of transitionRegional deterrence, domestic authority and the political foundations of the Islamic Republic.→\n\n\nMore political writing will appear here.\nThis section will grow as I continue examining political institutions and current affairs."
+  },
+  {
+    "objectID": "Posts/Statistics/index.html#this-section-is-taking-shape",
+    "href": "Posts/Statistics/index.html#this-section-is-taking-shape",
+    "title": "Data, models and what uncertainty permits us to say.",
+    "section": "This section is taking shape",
+    "text": "This section is taking shape\n\n03 The questions are here. The articles are coming.\n\nThis section will contain work on statistical ideas, models and applied forecasting as the collection develops.\n\nView the featured forecasting project"
+  },
+  {
+    "objectID": "Posts/Theology/index.html#this-section-is-taking-shape",
+    "href": "Posts/Theology/index.html#this-section-is-taking-shape",
+    "title": "Scripture, tradition and the search for meaning.",
+    "section": "This section is taking shape",
+    "text": "This section is taking shape\n\n04 A space for slower questions.\n\nThis section will grow as I develop writing on scripture, tradition, interpretation and meaning.\n\nRead more about the site"
   }
 ]

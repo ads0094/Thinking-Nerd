@@ -2,30 +2,38 @@
 title: ""
 title-block: false
 page-layout: full
+body-classes: thinking-category-page category-economics
+description: "Writing on economics, policy, markets and institutions from A Thinking Nerd."
 ---
 
-<div class="hero">
-  <h1>Economics</h1>
-  <p><em>Policy. Markets. Incentives.</em></p>
-  <p>Macro • Micro • Institutions</p>
-</div>
+::: category-hero
+::: category-hero-inner
+<p class="category-number">01 / ECONOMICS</p>
 
-```{=html}
-<div class="section-grey">
-  <div class="content">
-    <p>This is where I talk about economic policy, current topics, and academic economics.</p>
-    <a href="Victoria-Electricity-Demand-Forecasting.html" class="blog-link">What drives Victoria's electricity demand?</a>
-    <a href="Electricity-Demand.html" class="blog-link">Post COVID Electricity demand: the Sydney-Melbourne story</a>
-    <a href="ASEAN-Manufacturing-Risk.html" class="blog-link">The Strait of Hormuz and Southeast Asia’s Manufacturing Risk</a>
-    <a href="Fuel-Prices-Policy.html" class="blog-link">Free Public Transport for Victorians</a>
-    <a href="Hormuz.html" class="blog-link">Strait of Hormuz</a>
-    
-  </div>
+# Policy, markets and the incentives beneath them.
 
-  <footer class="site-footer">
-    © 2024 A Thinking Nerd — All thoughts my own.
-  </footer>
-</div>
+<p class="category-deck">Writing on economic policy, energy, trade and the institutions that shape real decisions.</p>
 
-```
+<div class="category-keywords"><span>Macro</span><span>Micro</span><span>Institutions</span></div>
+:::
+:::
 
+::: category-content
+<p class="category-label">ALL ECONOMICS POSTS</p>
+
+## Recent analysis and commentary
+
+::: category-list
+<a class="category-entry category-entry-featured" href="Victoria-Electricity-Demand-Forecasting.html"><span class="entry-index">01</span><span class="entry-copy"><small>DATA PROJECT · ENERGY · FORECASTING</small><strong>What drives Victoria's electricity demand?</strong><em>Seven years of half-hourly demand data, weather effects and forecast evaluation.</em></span><span class="entry-arrow">→</span></a>
+
+<a class="category-entry" href="Electricity-Demand.html"><span class="entry-index">02</span><span class="entry-copy"><small>ENERGY · POST-PANDEMIC AUSTRALIA</small><strong>Post-COVID electricity demand</strong><em>How lockdowns, hybrid work and rooftop solar changed demand in Sydney and Melbourne.</em></span><span class="entry-arrow">→</span></a>
+
+<a class="category-entry" href="ASEAN-Manufacturing-Risk.html"><span class="entry-index">03</span><span class="entry-copy"><small>ENERGY · FREIGHT · MANUFACTURING</small><strong>Southeast Asia's manufacturing risk</strong><em>Why manufacturers need to plan for disruption in the Strait of Hormuz.</em></span><span class="entry-arrow">→</span></a>
+
+<a class="category-entry" href="Fuel-Prices-Policy.html"><span class="entry-index">04</span><span class="entry-copy"><small>COST OF LIVING · PUBLIC POLICY</small><strong>Free public transport for Victorians</strong><em>A month of free travel and the harder policy question beneath it.</em></span><span class="entry-arrow">→</span></a>
+
+<a class="category-entry" href="Hormuz.html"><span class="entry-index">05</span><span class="entry-copy"><small>ENERGY MARKETS · GEOPOLITICS</small><strong>Strait of Hormuz</strong><em>Between desert silence and global panic lies a narrow and consequential waterway.</em></span><span class="entry-arrow">→</span></a>
+:::
+:::
+
+<footer class="category-footer">© 2026 A Thinking Nerd | All thoughts my own.</footer>

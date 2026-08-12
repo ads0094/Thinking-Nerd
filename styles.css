@@ -1056,3 +1056,168 @@ main {
   .about-links { grid-template-columns: 1fr; }
 }
 
+/* Category directories — shared system with a distinct accent for each subject. */
+.thinking-category-page {
+  --category-accent: #d7922a;
+  overflow-x: hidden;
+  background: #f4f0e7;
+}
+
+.thinking-category-page.category-politics { --category-accent: #b7603c; }
+.thinking-category-page.category-statistics { --category-accent: #487b87; }
+.thinking-category-page.category-theology { --category-accent: #79658f; }
+.thinking-category-page main { max-width: none; }
+
+.category-hero {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding: 5.8rem 1.5rem 5.1rem;
+  color: #fff;
+  background: #002244;
+  border-bottom: 8px solid var(--category-accent);
+}
+
+.category-hero-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.category-number,
+.category-label {
+  color: var(--category-accent);
+  font-size: .76rem;
+  font-weight: 800;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+
+.category-hero h1,
+.category-content h2,
+.category-entry strong,
+.category-empty strong {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-weight: 600;
+}
+
+.category-hero h1 {
+  max-width: 850px;
+  margin: .8rem 0 0;
+  color: #fff;
+  font-size: clamp(3.1rem, 6vw, 5.3rem);
+  line-height: 1;
+  letter-spacing: -.04em;
+}
+
+.category-deck {
+  max-width: 720px;
+  margin: 1.5rem 0 0;
+  color: #ccd8de;
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.category-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+  margin-top: 2rem;
+}
+
+.category-keywords span {
+  padding: .35rem .7rem;
+  border: 1px solid rgba(255,255,255,.28);
+  color: #fff;
+  font-size: .8rem;
+}
+
+.category-content {
+  max-width: 1040px;
+  min-height: 55vh;
+  margin: 0 auto;
+  padding: 5.2rem 1.5rem 6rem;
+}
+
+.category-content > h2 {
+  margin: .35rem 0 2.2rem;
+  padding: 0;
+  border: 0;
+  color: #002244;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.category-content > h2::before { display: none; }
+
+.category-list {
+  border-top: 1px solid #aaa69c;
+}
+
+.category-entry {
+  display: grid;
+  grid-template-columns: 52px 1fr 40px;
+  gap: 1.2rem;
+  align-items: center;
+  padding: 1.7rem 1rem;
+  border-bottom: 1px solid #aaa69c;
+  color: #002244 !important;
+  text-decoration: none;
+  transition: padding .18s ease, background .18s ease;
+}
+
+.category-entry:hover {
+  padding-left: 1.35rem;
+  background: #ebe5d9;
+  text-decoration: none;
+}
+
+.category-entry-featured { border-left: 5px solid var(--category-accent); }
+.entry-index { color: var(--category-accent); font-size: .78rem; font-weight: 800; }
+.entry-copy { display: grid; }
+.entry-copy small { color: #8a641f; font-size: .7rem; font-weight: 800; letter-spacing: .08em; }
+.category-politics .entry-copy small { color: #984b30; }
+.entry-copy strong { margin: .25rem 0; font-size: 1.55rem; }
+.entry-copy em { color: #59676e; font-size: .9rem; font-style: normal; }
+.entry-arrow { color: var(--category-accent); font-size: 1.6rem; text-align: right; }
+
+.category-note {
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  border-left: 4px solid var(--category-accent);
+  background: #e8e3d9;
+}
+
+.category-note strong { color: #002244; }
+.category-note p { margin-bottom: 0; color: #59676e; }
+
+.category-empty {
+  max-width: 760px;
+  padding: 3rem;
+  border-top: 7px solid var(--category-accent);
+  background: #e7e2d8;
+}
+
+.category-empty > span { color: var(--category-accent); font-size: .8rem; font-weight: 800; }
+.category-empty strong { display: block; margin: .8rem 0 1rem; color: #002244; font-size: 1.8rem; }
+.category-empty p { color: #536168; font-size: 1.05rem; }
+.category-empty a { color: #002244; font-weight: 700; }
+
+.category-footer {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding: 1.6rem;
+  color: #b9c6cc;
+  background: #002244;
+  border-top: 7px solid var(--category-accent);
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .category-hero { padding-top: 4.2rem; }
+  .category-hero h1 { font-size: 3rem; }
+  .category-deck { font-size: 1.05rem; }
+  .category-content { padding-top: 3.5rem; }
+  .category-entry { grid-template-columns: 36px 1fr; }
+  .entry-arrow { display: none; }
+  .entry-copy strong { font-size: 1.35rem; }
+  .category-empty { padding: 2rem; }
+}
+

@@ -1,24 +1,34 @@
 ---
 title: ""
-page-layout: full
 title-block: false
+page-layout: full
+body-classes: thinking-category-page category-theology
+description: "Writing on scripture, tradition and meaning from A Thinking Nerd."
 ---
 
+::: category-hero
+::: category-hero-inner
+<p class="category-number">04 / THEOLOGY</p>
 
-<div class="hero">
-  <h1>Theology</h1>
-  <p><em>Scripture. Tradition. Meaning.</em></p>
-  <p>Text • History • Interpretation</p>
-</div>
+# Scripture, tradition and the search for meaning.
 
-```{=html}
-<div class="section-grey-religion">
-  <div class="content">
-    <p>This section contains blog posts on theology.</p>
-  </div>
+<p class="category-deck">A developing space for reflection on theological texts, history, interpretation and belief.</p>
 
-  <footer class="site-footer">
-    © 2024 A Thinking Nerd — All thoughts my own.
-  </footer>
-</div>
-```
+<div class="category-keywords"><span>Text</span><span>History</span><span>Interpretation</span></div>
+:::
+:::
+
+::: category-content
+<p class="category-label">THEOLOGICAL WRITING</p>
+
+## This section is taking shape
+
+::: category-empty
+<span>04</span>
+<strong>A space for slower questions.</strong>
+<p>This section will grow as I develop writing on scripture, tradition, interpretation and meaning.</p>
+<a href="../../about.html">Read more about the site</a>
+:::
+:::
+
+<footer class="category-footer">© 2026 A Thinking Nerd | All thoughts my own.</footer>
