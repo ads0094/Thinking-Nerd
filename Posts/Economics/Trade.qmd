@@ -1,9 +1,9 @@
 ---
-title: ""
-title-block: false
+title: "Australia's Economic Resilience Amid China's Slowdown"
 page-layout: full
 output-file: Blog_one
 body-classes: standard-article economics-article
+description: "What China's economic slowdown, property problems and changing demand mean for Australia's trade relationship."
 ---
 
 ::: hero

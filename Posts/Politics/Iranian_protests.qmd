@@ -1,8 +1,8 @@
 ---
-title: ""
-title-block: false
+title: "Iran at the Threshold of Transition"
 page-layout: full
 body-classes: standard-article politics-article
+description: "How regional deterrence, domestic pressure and institutional decline are reshaping Iran's political future."
 ---
 
 ```{=html}

@@ -1,10 +1,31 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - robots.txt
+    - images/apple-touch-icon.png
 
 website:
   title: "The Thinking Nerd"
-  open-graph: true
+  site-url: "https://ads0094.github.io/Thinking-Nerd"
+  description: "Aryan Sultan's writing on economics, public policy, politics, statistics and theology."
+  favicon: images/favicon.png
+  image: /images/social-preview.png
+  image-alt: "The Thinking Nerd: economics, policy, politics and data"
+  open-graph:
+    locale: en_AU
+    site-name: "The Thinking Nerd"
+    image: /images/social-preview.png
+    image-alt: "The Thinking Nerd: economics, policy, politics and data"
+    image-width: 1200
+    image-height: 630
+  twitter-card:
+    card-style: summary_large_image
+    image: /images/social-preview.png
+    image-alt: "The Thinking Nerd: economics, policy, politics and data"
+    image-width: 1200
+    image-height: 630
+  search: true
   navbar:
     left:
       - text: Home
@@ -26,6 +47,9 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    include-in-header: _includes/head.html
+    canonical-url: true
+    title-block-style: none
     page-layout: full
     toc: false
     font:

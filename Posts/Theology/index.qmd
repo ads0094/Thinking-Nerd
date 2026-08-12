@@ -1,6 +1,5 @@
 ---
-title: ""
-title-block: false
+title: "Theology"
 page-layout: full
 body-classes: thinking-category-page category-theology
 description: "Writing on scripture, tradition and meaning from A Thinking Nerd."

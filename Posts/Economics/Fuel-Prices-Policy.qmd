@@ -1,10 +1,10 @@
 ---
-title: ""
-title-block: false
+title: "Free Public Transport for Victorians"
 page-layout: full
 bibliography: references.bib
 link-citations: true
 body-classes: standard-article economics-article
+description: "A month of free public transport in Victoria, the cost-of-living case for it and the harder policy question beneath it."
 ---
 
 <div class="hero">

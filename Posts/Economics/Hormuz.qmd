@@ -1,10 +1,10 @@
 ---
-title: ""
-title-block: false
+title: "Strait of Hormuz"
 page-layout: full
 bibliography: references.bib
 link-citations: true
 body-classes: standard-article economics-article
+description: "Why disruption in the Strait of Hormuz matters for global energy markets, shipping, inflation and Australia."
 ---
 
 ::: hero

@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "About Aryan Sultan"
 format: html
 page-layout: full
 body-classes: thinking-about-page

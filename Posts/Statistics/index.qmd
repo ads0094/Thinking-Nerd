@@ -1,6 +1,5 @@
 ---
-title: ""
-title-block: false
+title: "Statistics"
 page-layout: full
 body-classes: thinking-category-page category-statistics
 description: "Writing on data, models and uncertainty from A Thinking Nerd."

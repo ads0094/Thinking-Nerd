@@ -1,6 +1,5 @@
 ---
-title: ""
-title-block: false
+title: "Economics"
 page-layout: full
 body-classes: thinking-category-page category-economics
 description: "Writing on economics, policy, markets and institutions from A Thinking Nerd."

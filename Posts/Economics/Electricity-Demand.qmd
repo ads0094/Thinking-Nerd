@@ -1,9 +1,9 @@
 ---
-title: ""
-title-block: false
+title: "Post-COVID Electricity Demand: The Sydney-Melbourne Story"
 page-layout: full
 link-citations: true
 body-classes: standard-article economics-article
+description: "How lockdowns, hybrid work and rooftop solar changed electricity demand across New South Wales and Victoria."
 ---
 
 ::: hero

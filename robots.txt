@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ads0094.github.io/Thinking-Nerd/sitemap.xml

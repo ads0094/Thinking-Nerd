@@ -1,6 +1,5 @@
 ---
-title: ""
-title-block: false
+title: "What Drives Victoria's Electricity Demand?"
 page-layout: full
 description: "What seven years of half-hourly data reveal about Victoria's electricity demand—and how well it can be forecast."
 body-classes: victoria-project-page

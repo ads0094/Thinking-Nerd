@@ -6,6 +6,11 @@ body {
   color: #333;
 }
 
+/* Page titles remain available to search and social metadata; custom layouts provide the visible H1. */
+#title-block-header {
+  display: none;
+}
+
 main {
   max-width: 1100px;
   margin: 0 auto;

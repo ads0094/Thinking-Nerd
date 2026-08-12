@@ -1,9 +1,9 @@
 ---
-title: ""
-title-block: false
+title: "The Strait of Hormuz and Southeast Asia's Manufacturing Risk"
 page-layout: full
 link-citations: true
 body-classes: standard-article economics-article
+description: "How energy disruption in the Strait of Hormuz can affect freight, fuel and manufacturing across Southeast Asia."
 ---
 
 ::: hero

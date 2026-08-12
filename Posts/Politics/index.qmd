@@ -1,6 +1,5 @@
 ---
-title: ""
-title-block: false
+title: "Politics"
 page-layout: full
 body-classes: thinking-category-page category-politics
 description: "Writing on politics, power and institutions from A Thinking Nerd."

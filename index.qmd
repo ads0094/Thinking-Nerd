@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "The Thinking Nerd"
 format: html
 page-layout: full
 body-classes: thinking-home-page
