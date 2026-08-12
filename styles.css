@@ -1221,3 +1221,195 @@ main {
   .category-empty { padding: 2rem; }
 }
 
+/* Editorial layout for regular articles. The Victoria data feature stays distinct. */
+.standard-article {
+  --article-accent: #c8892d;
+  --article-accent-soft: #ead4ae;
+  overflow-x: hidden;
+  background: #f3f0e9;
+  color: #172733;
+}
+
+.standard-article.politics-article {
+  --article-accent: #a9563f;
+  --article-accent-soft: #dfb7a9;
+}
+
+.standard-article main { max-width: none; }
+
+.standard-article .hero {
+  min-height: 390px;
+  padding: 6.5rem max(2rem, calc((100vw - 980px) / 2)) 5.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: left;
+  background: #092c47;
+}
+
+.standard-article .hero::before {
+  content: "THE THINKING NERD";
+  margin-bottom: 1.5rem;
+  color: var(--article-accent-soft);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+}
+
+.standard-article .hero::after {
+  content: "";
+  position: absolute;
+  right: max(2rem, calc((100vw - 980px) / 2));
+  bottom: 0;
+  width: 160px;
+  height: 7px;
+  background: var(--article-accent);
+}
+
+.standard-article .hero h1 {
+  max-width: 920px;
+  margin: 0 0 1rem;
+  color: #fffdf7;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(2.8rem, 5.4vw, 5.2rem);
+  font-weight: 500;
+  line-height: 1.02;
+  letter-spacing: -.035em;
+}
+
+.standard-article .hero p:first-of-type {
+  max-width: 760px;
+  margin: 0 0 1.35rem;
+  color: #dce6e9;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  line-height: 1.5;
+}
+
+.standard-article .hero p:last-of-type {
+  margin: 0;
+  color: var(--article-accent-soft);
+  font-size: .82rem;
+  font-weight: 700;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+
+.standard-article .section-grey,
+.standard-article .section-grey-politics {
+  min-height: 0;
+  padding: 4.8rem 1.5rem 5.5rem;
+  display: block;
+  background: #f3f0e9;
+}
+
+.standard-article .section-grey::before,
+.standard-article .section-grey-politics::before { display: none; }
+
+.standard-article .section-grey .content,
+.standard-article .section-grey-politics .content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: visible;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  color: #24333d;
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  font-size: 1.16rem;
+  line-height: 1.82;
+}
+
+.standard-article .content > p:first-child {
+  font-size: .83rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+  color: #687780;
+}
+
+.standard-article .content h2,
+.standard-article .content h3,
+.standard-article .content h4,
+.standard-article .content h5 {
+  margin: 3.2rem 0 1rem;
+  color: #0b304a;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(1.65rem, 3vw, 2.15rem);
+  font-weight: 600;
+  line-height: 1.22;
+}
+
+.standard-article .content h2::before,
+.standard-article .content h3::before,
+.standard-article .content h4::before,
+.standard-article .content h5::before {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 4px;
+  margin-bottom: .8rem;
+  background: var(--article-accent);
+}
+
+.standard-article .content a {
+  color: #075d75;
+  text-decoration-color: var(--article-accent);
+  text-underline-offset: .18em;
+}
+
+.standard-article .content blockquote {
+  margin: 2.5rem 0;
+  padding: .35rem 0 .35rem 1.6rem;
+  border-left: 5px solid var(--article-accent);
+  color: #394b55;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.25rem;
+}
+
+.standard-article .share-box {
+  margin-top: 3.5rem;
+  padding: 1.25rem 0;
+  border-top: 1px solid #cbd0cc;
+  border-bottom: 1px solid #cbd0cc;
+  background: transparent;
+  border-radius: 0;
+}
+
+.standard-article .site-footer {
+  margin-top: 4rem;
+  padding: 1.4rem 0 0;
+  border-top: 1px solid #cbd0cc;
+  color: #687780;
+}
+
+@media (max-width: 700px) {
+  .standard-article .hero {
+    min-height: 330px;
+    padding: 5rem 1.4rem 3.8rem;
+  }
+
+  .standard-article .hero::after {
+    right: 1.4rem;
+    width: 95px;
+  }
+
+  .standard-article .hero h1 {
+    font-size: clamp(2.45rem, 12vw, 3.7rem);
+  }
+
+  .standard-article .section-grey,
+  .standard-article .section-grey-politics {
+    padding: 3.2rem 1.35rem 4rem;
+  }
+
+  .standard-article .section-grey .content,
+  .standard-article .section-grey-politics .content {
+    font-size: 1.08rem;
+    line-height: 1.75;
+  }
+}
+

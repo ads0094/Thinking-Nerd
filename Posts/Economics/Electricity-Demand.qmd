@@ -3,6 +3,7 @@ title: ""
 title-block: false
 page-layout: full
 link-citations: true
+body-classes: standard-article economics-article
 ---
 
 ::: hero
@@ -57,4 +58,7 @@ The broad conclusion is that the pandemic accelerated changes already underway. 
 * [Snow et al. (2020), “Drivers behind Residential Electricity Demand Fluctuations Due to COVID-19 Restrictions”, *Energies*, 13(21), 5738](https://doi.org/10.3390/en13215738)
 * [Tavakoli et al. (2023), “Impact of COVID-19 Pandemic on Energy Consumption in Office Buildings”, *Sustainability*, 15(5), 4240](https://doi.org/10.3390/su15054240)
 * [Yan and Han (2023), “The impact of rooftop solar on wholesale electricity demand in the Australian National Electricity Market”, *Frontiers in Energy Research*](https://doi.org/10.3389/fenrg.2023.1197504)
+
+:::
+::::
 

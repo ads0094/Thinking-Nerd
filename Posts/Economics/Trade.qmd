@@ -3,6 +3,7 @@ title: ""
 title-block: false
 page-layout: full
 output-file: Blog_one
+body-classes: standard-article economics-article
 ---
 
 ::: hero

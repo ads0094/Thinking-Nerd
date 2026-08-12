@@ -3,6 +3,7 @@ title: ""
 title-block: false
 page-layout: full
 link-citations: true
+body-classes: standard-article economics-article
 ---
 
 ::: hero

@@ -4,6 +4,7 @@ title-block: false
 page-layout: full
 bibliography: references.bib
 link-citations: true
+body-classes: standard-article economics-article
 ---
 
 <div class="hero">

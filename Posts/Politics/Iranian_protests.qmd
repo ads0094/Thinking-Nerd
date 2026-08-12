@@ -2,6 +2,7 @@
 title: ""
 title-block: false
 page-layout: full
+body-classes: standard-article politics-article
 ---
 
 ```{=html}
