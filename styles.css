@@ -650,7 +650,7 @@ main {
   max-width: 800px;
   margin: 0;
   color: #fff;
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
   font-size: clamp(3.2rem, 6.2vw, 5.6rem);
   font-weight: 600;
   line-height: 1;
@@ -694,7 +694,7 @@ main {
 .home-hero-note blockquote {
   margin: 1rem 0;
   color: #fff;
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
   font-size: 1.65rem;
   line-height: 1.35;
 }
@@ -709,7 +709,7 @@ main {
 
 .home-content h2 {
   color: #002244;
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
   font-size: clamp(2rem, 3.5vw, 3rem);
   font-weight: 600;
   letter-spacing: -.025em;
@@ -742,7 +742,7 @@ main {
 .home-feature-stats div:last-child { border-right: 0; }
 .home-feature-stats strong,
 .home-feature-stats span { display: block; }
-.home-feature-stats strong { color: #002244; font-family: Georgia, serif; font-size: 1.35rem; }
+.home-feature-stats strong { color: #002244; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; font-size: 1.35rem; }
 .home-feature-stats span { color: #68747a; font-size: .75rem; }
 .home-text-link { color: #002244; font-weight: 700; text-underline-offset: 4px; }
 
@@ -771,7 +771,7 @@ main {
 
 .home-post { padding: 2rem; background: #f4f0e7; }
 .home-post > span { color: #a66d18; font-size: .72rem; font-weight: 800; letter-spacing: .1em; }
-.home-post h3 { min-height: 3.3rem; margin: .8rem 0; color: #002244; font-family: Georgia, serif; font-size: 1.45rem; }
+.home-post h3 { min-height: 3.3rem; margin: .8rem 0; color: #002244; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; font-size: 1.45rem; }
 .home-post p { color: #4f5d64; font-size: .96rem; line-height: 1.65; }
 .home-post a { color: #002244; font-weight: 700; }
 
@@ -794,7 +794,7 @@ main {
 
 .home-topic:hover { border-color: #d7922a; background: #ebe5d9; text-decoration: none; }
 .home-topic span { grid-row: 1 / 3; color: #a66d18; font-size: .78rem; font-weight: 800; }
-.home-topic strong { font-family: Georgia, serif; font-size: 1.45rem; }
+.home-topic strong { font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; font-size: 1.45rem; }
 .home-topic small { color: #68747a; font-size: .82rem; }
 
 .home-about-strip {
