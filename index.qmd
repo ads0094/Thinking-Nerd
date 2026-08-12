@@ -13,7 +13,7 @@ description: "A Thinking Nerd is Aryan Sultan's writing on economics, public pol
 
 # Thinking through the world, one question at a time.
 
-<p class="home-deck">Economics, public policy, politics, statistics and theology—examined with clarity, context and an interest in where tidy ideas meet messy reality.</p>
+<p class="home-deck">I explore economics, public policy, politics, statistics and theology with clarity, context and an interest in where tidy ideas meet messy reality.</p>
 
 <div class="home-actions">
   <a href="#featured" class="home-button home-button-primary">Start reading</a>
@@ -38,11 +38,11 @@ description: "A Thinking Nerd is Aryan Sultan's writing on economics, public pol
 ::: home-feature-copy
 ## What drives Victoria's electricity demand?
 
-Seven years of half-hourly demand data reveal clear daily and seasonal rhythms, a U-shaped relationship with temperature, and the value—and limits—of weather-aware forecasting.
+Seven years of half-hourly demand data reveal clear daily and seasonal rhythms, a U-shaped relationship with temperature, and both the value and limits of weather-aware forecasting.
 
 <div class="home-feature-stats">
   <div><strong>122,736</strong><span>observations</span></div>
-  <div><strong>2019–2025</strong><span>study period</span></div>
+  <div><strong>2019 to 2025</strong><span>study period</span></div>
   <div><strong>333 MW</strong><span>best average error</span></div>
 </div>
 
@@ -132,4 +132,4 @@ I am interested in economics, geopolitics and applied statistics, particularly i
 
 :::
 
-<footer class="home-footer">© 2026 A Thinking Nerd — All thoughts my own.</footer>
+<footer class="home-footer">© 2026 A Thinking Nerd | All thoughts my own.</footer>

@@ -844,3 +844,215 @@ main {
   .home-button-dark { justify-self: start; }
 }
 
+/* About page redesign — scoped so other pages remain unchanged. */
+.thinking-about-page {
+  overflow-x: hidden;
+  background: #f4f0e7;
+}
+
+.thinking-about-page main { max-width: none; }
+
+.about-hero {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding: 6rem 1.5rem 5.2rem;
+  color: #fff;
+  background: #002244;
+  border-bottom: 8px solid #d7922a;
+}
+
+.about-hero-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(260px, .65fr);
+  gap: 5rem;
+  align-items: end;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.about-kicker,
+.about-section-label,
+.about-principles > span {
+  color: #a66d18;
+  font-size: .76rem;
+  font-weight: 800;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+
+.about-kicker,
+.about-principles > span { color: #f1ba52; }
+
+.about-hero h1,
+.about-content h2,
+.about-panel h3 {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-weight: 600;
+}
+
+.about-hero h1 {
+  max-width: 760px;
+  margin: 0;
+  color: #fff;
+  font-size: clamp(3.2rem, 6vw, 5.5rem);
+  line-height: 1;
+  letter-spacing: -.04em;
+}
+
+.about-deck {
+  max-width: 750px;
+  margin: 1.5rem 0 0;
+  color: #cfdae0;
+  font-size: 1.24rem;
+  line-height: 1.7;
+}
+
+.about-principles {
+  padding: 1.7rem 0 1.7rem 1.8rem;
+  border-left: 1px solid rgba(255,255,255,.3);
+}
+
+.about-principles p {
+  display: grid;
+  gap: .45rem;
+  margin: 0;
+}
+
+.about-principles p > span {
+  color: #f1ba52;
+  font-size: .76rem;
+  font-weight: 800;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+
+.about-principles p > strong {
+  display: block;
+  color: #fff;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 1.45rem;
+  font-weight: 500;
+}
+
+.about-content {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 5.5rem 1.5rem 6rem;
+}
+
+.about-content h2 {
+  margin: .35rem 0 1.2rem;
+  padding: 0;
+  border: 0;
+  color: #002244;
+  font-size: clamp(2.1rem, 4vw, 3.2rem);
+  letter-spacing: -.025em;
+}
+
+.about-content h2::before { display: none; }
+
+.about-intro {
+  max-width: 850px;
+  margin-bottom: 4.5rem;
+}
+
+.about-intro p:not(.about-section-label) {
+  font-size: 1.12rem;
+  line-height: 1.8;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin-bottom: 5.5rem;
+  border-top: 1px solid #aaa69c;
+  border-bottom: 1px solid #aaa69c;
+  background: #aaa69c;
+}
+
+.about-panel {
+  padding: 2.1rem;
+  background: #f4f0e7;
+}
+
+.about-panel > span { color: #a66d18; font-size: .76rem; font-weight: 800; }
+.about-panel h3 { margin: .7rem 0 1rem; color: #002244; font-size: 1.55rem; }
+.about-panel p { color: #4e5b62; font-size: 1rem; line-height: 1.75; }
+
+.about-podcast {
+  display: grid;
+  grid-template-columns: 1fr 170px;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 5.5rem;
+  padding: 3rem;
+  border-top: 7px solid #d7922a;
+  color: #fff;
+  background: #002244;
+}
+
+.about-podcast h2 { color: #fff; }
+.about-podcast p:last-child { max-width: 680px; margin-bottom: 0; color: #cad6dc; font-size: 1.08rem; }
+.about-podcast-mark { display: flex; justify-content: center; gap: .15rem; }
+.about-podcast-mark span {
+  display: grid;
+  width: 64px;
+  height: 84px;
+  place-items: center;
+  color: #002244;
+  background: #f1ba52;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.about-podcast-mark span:last-child { color: #fff; background: #d66d32; }
+
+.about-writing > h2 { margin-bottom: 2rem; }
+
+.about-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.about-links a {
+  display: grid;
+  padding: 1.4rem 1.5rem;
+  border: 1px solid #c3beb3;
+  color: #002244 !important;
+  background: rgba(255,255,255,.28);
+  text-decoration: none;
+}
+
+.about-links a:hover { border-color: #d7922a; background: #ebe5d9; text-decoration: none; }
+.about-links strong { font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; font-size: 1.35rem; }
+.about-links span { color: #68747a; font-size: .84rem; }
+
+.about-footer {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding: 1.6rem;
+  color: #b9c6cc;
+  background: #002244;
+  border-top: 7px solid #d7922a;
+  text-align: center;
+}
+
+@media (max-width: 820px) {
+  .about-hero-inner { grid-template-columns: 1fr; gap: 3rem; }
+  .about-principles { max-width: 520px; }
+  .about-grid { grid-template-columns: 1fr; }
+  .about-podcast { grid-template-columns: 1fr; }
+  .about-podcast-mark { justify-content: flex-start; }
+}
+
+@media (max-width: 560px) {
+  .about-hero { padding-top: 4.2rem; }
+  .about-hero h1 { font-size: 3rem; }
+  .about-deck { font-size: 1.08rem; }
+  .about-content { padding-top: 3.5rem; }
+  .about-podcast { padding: 2rem; }
+  .about-links { grid-template-columns: 1fr; }
+}
+

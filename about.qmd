@@ -2,26 +2,96 @@
 title: ""
 format: html
 page-layout: full
+body-classes: thinking-about-page
+description: "About Aryan Sultan and A Thinking Nerd."
 ---
 
-<div class="hero">
-  <h1>A Thinking <em>Nerd</em></h1><br>
-  <p>_Clarity. Insight. Context._<br></p>
-  <p>Institutions. Reason. Order. Faith</p>
-</div>
+::: about-hero
+::: about-hero-inner
+::: about-hero-copy
+<p class="about-kicker">ABOUT ARYAN SULTAN</p>
 
-<div class="section-grey">
-<div class="content">
-  <p> I am interested in economics, geopolitics, and applied statistics, particularly in the gap between elegant theory and messy reality. Models matter, but so do incentives, institutions, uncertainty, and the limits of the data in front of you.
+# Ideas are clean. Reality rarely is.
+
+<p class="about-deck">I am interested in economics, geopolitics and applied statistics, particularly the gap between elegant theory and the complicated world it is meant to explain.</p>
+:::
+
+::: about-principles
+<span>WHAT GUIDES THE WORK</span>
+<strong>Models</strong>
+<strong>Incentives</strong>
+<strong>Institutions</strong>
+<strong>Uncertainty</strong>
+:::
+:::
+:::
+
+::: about-content
+
+::: about-intro
+<p class="about-section-label">MY PERSPECTIVE</p>
+
+## Models matter. So do their limits.
+
+Models help organise our thinking, but they do not remove uncertainty. The assumptions we make, the incentives people face, the institutions surrounding a problem and the limits of the available data all shape what a model can tell us.
+
+The tension between useful abstraction and messy reality connects much of my writing.
+:::
+
+::: about-grid
+::: about-panel
+<span>01</span>
+
+### Background
 
 My academic background is in economics and business analytics. I want to work in economics, and in time I hope to pursue deeper study in statistics as well.
+:::
 
-This blog is where I work through ideas in public. Sometimes that means writing about policy or markets. Sometimes it means testing an argument, following a question further than expected, or trying to understand why a neat model breaks down in practice.
+::: about-panel
+<span>02</span>
 
-I also host the Forecasting Impact Podcast, focused on forecasting across industry and academia.</p>
+### What I write about
 
-  </div>
-  <footer class="site-footer">
-  © 2024 A Thinking Nerd — All thoughts my own.
-</footer>
-</div>
+The subjects range from economics and public policy to geopolitics, applied statistics and theology. Some pieces are analytical; others begin with a question I want to follow further.
+:::
+
+::: about-panel
+<span>03</span>
+
+### Why I write
+
+This blog is where I work through ideas in public: testing an argument, examining a policy or trying to understand why a neat model breaks down in practice.
+:::
+:::
+
+::: about-podcast
+::: about-podcast-copy
+<p class="about-section-label">FORECASTING IMPACT PODCAST</p>
+
+## Conversations about forecasting
+
+I also host the Forecasting Impact Podcast, focused on forecasting across industry and academia.
+:::
+
+::: about-podcast-mark
+<span>F</span>
+<span>I</span>
+:::
+:::
+
+::: about-writing
+<p class="about-section-label">CONTINUE READING</p>
+
+## Explore the questions behind the site
+
+::: about-links
+<a href="Posts/Economics/index.html"><strong>Economics</strong><span>Policy, markets and incentives</span></a>
+<a href="Posts/Politics/index.html"><strong>Politics</strong><span>Power, law and institutions</span></a>
+<a href="Posts/Statistics/index.html"><strong>Statistics</strong><span>Data, models and uncertainty</span></a>
+<a href="Posts/Theology/index.html"><strong>Theology</strong><span>Scripture, tradition and meaning</span></a>
+:::
+:::
+
+:::
+
+<footer class="about-footer">© 2026 A Thinking Nerd | All thoughts my own.</footer>
