@@ -257,6 +257,25 @@ main {
   color: #002244; /* darker blue on hover */
 }
 
+/* Larger site navigation and post-directory typography. */
+.navbar-brand {
+  font-size: 1.45rem;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .dropdown-item {
+  font-size: 1.08rem;
+}
+
+.section-grey .content > p:first-child,
+.section-grey-politics .content > p:first-child,
+.section-grey-religion .content > p:first-child,
+.section-grey-statistics .content > p:first-child {
+  font-size: 1.18rem;
+  line-height: 1.65;
+}
+
 .blog-link {
   color: #002244;
   text-decoration: none;
@@ -277,14 +296,30 @@ main {
 
 .blog-link {
   display: block;
-  margin-bottom: 0.8rem;
-  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.18rem;
+  line-height: 1.45;
   color: #0b2c5f;
   text-decoration: none;
 }
 
 .blog-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+
+  .navbar-nav .nav-link,
+  .navbar-nav .dropdown-item {
+    font-size: 1rem;
+  }
+
+  .blog-link {
+    font-size: 1.08rem;
+  }
 }
 /* Victoria project feature — deliberately scoped so other blog pages do not change. */
 .victoria-project-page {
