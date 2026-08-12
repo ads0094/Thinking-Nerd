@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="What seven years of half-hourly data reveal about Victoria’s electricity demand—and how well it can be forecast.">
 
-<title>index – The Thinking Nerd</title>
+<title>victoria-electricity-demand-forecasting – The Thinking Nerd</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,10 +71,11 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="– The Thinking Nerd">
+<meta property="og:description" content="What seven years of half-hourly data reveal about Victoria’s electricity demand—and how well it can be forecast.">
 <meta property="og:site_name" content="The Thinking Nerd">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed victoria-project-page">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -139,33 +141,143 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="hero">
-<h1>
-Economics
-</h1>
-<p>
-<em>Policy. Markets. Incentives.</em>
+<div class="project-hero">
+<div class="project-hero-inner">
+<div class="project-hero-copy">
+<p class="project-kicker">
+ENERGY · DATA ANALYSIS · FORECASTING
 </p>
+<section id="what-drives-victorias-electricity-demand" class="level1">
+<h1>What drives Victoria’s electricity demand?</h1>
+<p class="project-deck">
+What seven years of half-hourly data reveal about daily routines, weather, public holidays and forecasting demand.
+</p>
+<p class="project-date">
+Published 12 August 2026
+</p>
+</section>
+</div>
+<div class="project-hero-motif">
+<svg viewbox="0 0 420 220" role="img" aria-label="A stylised daily electricity-demand curve">
+  <line x1="0" y1="180" x2="420" y2="180" class="motif-axis"></line>
+  <line x1="0" y1="120" x2="420" y2="120" class="motif-grid"></line>
+  <line x1="0" y1="60" x2="420" y2="60" class="motif-grid"></line>
+  <polyline points="0,122 35,156 70,168 105,142 140,70 175,94 210,132 245,142 280,126 315,54 350,34 385,72 420,116" class="motif-line"></polyline>
+  <circle cx="350" cy="34" r="6" class="motif-peak"></circle>
+  <text x="0" y="207">00:00</text>
+  <text x="185" y="207">12:00</text>
+  <text x="370" y="207">24:00</text>
+</svg>
 <p>
-Macro • Micro • Institutions
+A typical Victorian demand day
 </p>
 </div>
-<div class="section-grey">
-  <div class="content">
-    <p>This is where I talk about economic policy, current topics, and academic economics.</p>
-    <a href="Victoria-Electricity-Demand-Forecasting.html" class="blog-link">What drives Victoria's electricity demand?</a>
-    <a href="Electricity-Demand.html" class="blog-link">Post COVID Electricity demand: the Sydney-Melbourne story</a>
-    <a href="ASEAN-Manufacturing-Risk.html" class="blog-link">The Strait of Hormuz and Southeast Asia’s Manufacturing Risk</a>
-    <a href="Fuel-Prices-Policy.html" class="blog-link">Free Public Transport for Victorians</a>
-    <a href="Hormuz.html" class="blog-link">Strait of Hormuz</a>
-    
-  </div>
-
-  <footer class="site-footer">
-    © 2024 A Thinking Nerd — All thoughts my own.
-  </footer>
 </div>
-
+</div>
+<div class="project-article">
+<p>Electricity demand follows a rhythm, but it is not a simple one. The time of day matters. So do the season, the weather, working patterns and public holidays. Extreme conditions can push demand well beyond its usual range, which makes forecasting especially important when the system is under pressure.</p>
+<p>I built this project to investigate half-hourly scheduled electricity demand in Victoria from 2019 to 2025. The analysis combines Australian Energy Market Operator demand data with central Melbourne weather, Victorian public holidays, calendar information and daylight-saving periods.</p>
+<div class="project-stats">
+<div>
+<strong>122,736</strong><span>half-hour observations</span>
+</div>
+<div>
+<strong>7 years</strong><span>from 2019 to 2025</span>
+</div>
+<div>
+<strong>2 horizons</strong><span>24 hours and 7 days</span>
+</div>
+</div>
+<section id="what-i-wanted-to-understand" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-wanted-to-understand">What I wanted to understand</h2>
+<p>The project began with a set of practical questions:</p>
+<ul>
+<li>How does demand change through the day and across the seasons?</li>
+<li>How strongly is demand related to temperature?</li>
+<li>What changes on weekends, public holidays and during daylight saving?</li>
+<li>Can a weather- and calendar-aware model outperform simple forecasts based on yesterday or last week?</li>
+<li>When does the model make its largest errors?</li>
+</ul>
+</section>
+<section id="a-clear-daily-and-seasonal-rhythm" class="level2">
+<h2 class="anchored" data-anchor-id="a-clear-daily-and-seasonal-rhythm">A clear daily and seasonal rhythm</h2>
+<p>Victorian demand has a strong daily cycle. Weekdays rise more sharply in the morning than weekends, while winter evenings and summer afternoons stand out across the year. Average demand was highest on Thursday and lowest on Saturday.</p>
+<p>These patterns are consistent with several forces acting at once. Work and school schedules help explain the weekday profile, while heating and cooling needs are consistent with higher demand during cold periods and hot afternoons.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/vic-demand-weekday-profile.png" class="project-chart img-fluid figure-img"></p>
+<figcaption>Average Victorian demand through the day on weekdays and weekends.</figcaption>
+</figure>
+</div>
+<div class="project-finding">
+<p><span>Finding 1</span></p>
+<p><strong>Demand does not have one typical daily profile. The shape changes with the day of the week and the season.</strong></p>
+</div>
+</section>
+<section id="temperature-matters-at-both-extremes" class="level2">
+<h2 class="anchored" data-anchor-id="temperature-matters-at-both-extremes">Temperature matters at both extremes</h2>
+<p>The relationship between demand and temperature is U-shaped. Average demand was lowest at around <strong>20–21°C</strong>, then increased in both colder and hotter conditions. This is consistent with electricity being used for heating during cold periods and cooling during hot periods.</p>
+<p>The relationship is descriptive rather than automatically causal. Temperature overlaps with season, daylight hours and other changes in behaviour. Even so, it is one of the clearest patterns in the data.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/vic-demand-temperature.png" class="project-chart img-fluid figure-img"></p>
+<figcaption>Average Victorian demand across central Melbourne temperature bands.</figcaption>
+</figure>
+</div>
+<div class="project-finding">
+<p><span>Finding 2</span></p>
+<p><strong>Comfortable conditions coincide with lower demand; very cold and very hot conditions place more pressure on the system.</strong></p>
+</div>
+</section>
+<section id="the-calendar-changes-the-normal-profile" class="level2">
+<h2 class="anchored" data-anchor-id="the-calendar-changes-the-normal-profile">The calendar changes the normal profile</h2>
+<p>Public-holiday demand averaged <strong>16.2% below normal weekdays</strong>. The result fits the different schedule of offices, shops, schools and industry on those days.</p>
+<p>Demand profiles also differed between standard time and daylight-saving periods. That comparison needs care: the clock change happens alongside changes in season and temperature, so it should not be read as a causal estimate of daylight saving by itself.</p>
+</section>
+<section id="forecasting-simple-baselines-first" class="level2">
+<h2 class="anchored" data-anchor-id="forecasting-simple-baselines-first">Forecasting: simple baselines first</h2>
+<p>Before using machine learning, I established two transparent benchmarks:</p>
+<ul>
+<li><strong>Previous day:</strong> use demand from the same half-hour yesterday.</li>
+<li><strong>Previous week:</strong> use demand from the same half-hour one week earlier.</li>
+</ul>
+<p>The forecasts were evaluated chronologically on unseen periods in 2025. This preserves the order of the time series and avoids training a model with information from its future.</p>
+<p>I then compared those baselines with a random forest using time, weather, calendar and seasonal features. In this evaluation, the random forest produced the lowest average half-hour error: a mean absolute error of <strong>333 MW</strong> for both the 24-hour and seven-day horizons. It improved on the strongest baseline by <strong>34.4% at 24 hours</strong> and <strong>44.9% at seven days</strong>.</p>
+<div class="project-stats project-stats-forecast">
+<div>
+<strong>333 MW</strong><span>24-hour MAE</span>
+</div>
+<div>
+<strong>333 MW</strong><span>seven-day MAE</span>
+</div>
+<div>
+<strong>44.9%</strong><span>seven-day improvement</span>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/vic-demand-model-comparison.png" class="project-chart img-fluid figure-img"></p>
+<figcaption>Forecast accuracy of the previous-day and previous-week baselines compared with the random forest.</figcaption>
+</figure>
+</div>
+<p>The random forest therefore performed best for typical half-hour accuracy in this comparison, but it did not win every measure. The previous-week baseline retained a lower seven-day peak-demand error. That distinction matters: improving average accuracy is not the same as forecasting the week’s highest demand accurately, and the result should not be interpreted as proof that one model will always perform best.</p>
+</section>
+<section id="what-i-took-from-the-project" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-took-from-the-project">What I took from the project</h2>
+<p>I shaped the project scope, research questions, data choices, modelling comparisons and report design, and reviewed and refined the analysis throughout. Working with half-hourly Victorian demand data strengthened my understanding of checking timestamp continuity, aligning demand with hourly weather and calendar information, and evaluating forecasts chronologically against previous-day and previous-week baselines. AI-assisted tools supported parts of the coding, debugging and documentation.</p>
+<p>The most important modelling lesson was the value of starting with simple baselines. A machine-learning model is only useful if it performs better than a clear and credible alternative. The project also showed why forecast performance should be assessed against the decision being made: a model that is better on average may still need improvement before it is relied on for extreme peaks.</p>
+</section>
+<section id="limits-and-next-steps" class="level2">
+<h2 class="anchored" data-anchor-id="limits-and-next-steps">Limits and next steps</h2>
+<p>This is an analytical project rather than a production forecasting system. The target is scheduled demand derived from AEMO dispatch data, which is not identical to AEMO operational demand. Central Melbourne weather is only a proxy for conditions across Victoria, and the model uses observed reanalysis weather rather than the weather forecasts that would have been available in real time.</p>
+<p>Useful next steps would include archived weather forecasts, more Victorian weather locations, prediction intervals and a model trained specifically to handle peak demand.</p>
+</section>
+<section id="explore-the-full-interactive-report" class="level2 project-cta">
+<h2 class="anchored" data-anchor-id="explore-the-full-interactive-report">Explore the full interactive report</h2>
+<p>The complete report includes interactive charts, the data-quality audit, forecasting comparisons, error analysis and methodology.</p>
+<p><a href="https://ads0094.github.io/VIC-Electricity-Demand-Forecasting/" class="project-button" target="_blank">Open the Victoria Electricity Demand report</a></p>
+</section>
+</div>
 
 
 
