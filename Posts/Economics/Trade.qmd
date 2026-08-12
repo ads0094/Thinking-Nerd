@@ -65,7 +65,7 @@ The Australia-China trade relationship has had its ups and downs, but Australia�
 
 
   <footer class="site-footer">
-    © 2024 A Thinking Nerd — All thoughts my own.
+    © 2026 A Thinking Nerd | All thoughts my own.
   </footer>
 </div>
 ```

@@ -51,6 +51,6 @@ The bottom line is that free public transport for a month is a good politics, de
 
 
   <footer class="site-footer">
-    © 2024 A Thinking Nerd — All thoughts my own.
+    © 2026 A Thinking Nerd | All thoughts my own.
   </footer>
 </div>

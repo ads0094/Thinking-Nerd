@@ -59,6 +59,8 @@ The broad conclusion is that the pandemic accelerated changes already underway. 
 * [Tavakoli et al. (2023), “Impact of COVID-19 Pandemic on Energy Consumption in Office Buildings”, *Sustainability*, 15(5), 4240](https://doi.org/10.3390/su15054240)
 * [Yan and Han (2023), “The impact of rooftop solar on wholesale electricity demand in the Australian National Electricity Market”, *Frontiers in Energy Research*](https://doi.org/10.3389/fenrg.2023.1197504)
 
+<footer class="site-footer">© 2026 A Thinking Nerd | All thoughts my own.</footer>
+
 :::
 ::::
 

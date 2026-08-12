@@ -129,5 +129,7 @@ Royal Thai Government. PM reveals Govt’s approaches to address impact of Middl
 Ministry of Industry and Trade of Vietnam. Vietnam holds the line on fuel security amid regional and global price storm. 4 April 2026.
 
 Government News of Viet Nam. Gov’t removes fuel tariffs to stabilise supply amid Middle East tensions. 10 March 2026.
+
+<footer class="site-footer">© 2026 A Thinking Nerd | All thoughts my own.</footer>
 :::
 ::::

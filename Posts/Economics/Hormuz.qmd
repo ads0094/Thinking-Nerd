@@ -48,7 +48,7 @@ The broader point is straightforward. The global economy is efficient, but it is
 
 <footer class="site-footer">
 
-© 2024 A Thinking Nerd — All thoughts my own.
+© 2026 A Thinking Nerd | All thoughts my own.
 
 </footer>
 :::::
