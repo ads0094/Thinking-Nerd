@@ -107,9 +107,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "\nA Thinking Nerd\n",
+    "title": "Thinking through the world, one question at a time.",
     "section": "",
-    "text": "A Thinking Nerd\n\n\n\nClarity. Insight. Context.\n\n\nInstitutions. Reason. Order. Faith\n\n\n\n\n\nA Thinking Nerd is where I write to understand rather than to conclude. The topics range from economics and public policy to politics and theology, reflecting the questions I find myself returning to. Some posts are analytical, others reflective, but all are written as part of an ongoing effort to think carefully about the world and my place within it - Aryan Sultan.\n\n\n\n© 2024 A Thinking Nerd — All thoughts my own."
+    "text": "ARYAN SULTAN’S NOTES ON IDEAS AND EVIDENCE\n\n\n\n\nEconomics, public policy, politics, statistics and theology—examined with clarity, context and an interest in where tidy ideas meet messy reality.\n\n\nStart reading About me\n\n\n\n\n\nTHE THINKING NERD\n\n\n“I write to understand rather than to conclude.”\n\n\nClarity · Insight · Context"
   },
   {
     "objectID": "Posts/Economics/Electricity-Demand.html",
@@ -145,5 +145,33 @@
     "title": "\nStatistics\n",
     "section": "",
     "text": "Statistics\n\n\nData. Models. Inference.\n\n\nProbability • Estimation • Uncertainty\n\n\n\n  \n    This section contains blog posts on statistical topics\n  \n\n  \n    © 2024 A Thinking Nerd — All thoughts my own."
+  },
+  {
+    "objectID": "index.html#what-drives-victorias-electricity-demand",
+    "href": "index.html#what-drives-victorias-electricity-demand",
+    "title": "Thinking through the world, one question at a time.",
+    "section": "What drives Victoria’s electricity demand?",
+    "text": "What drives Victoria’s electricity demand?\nSeven years of half-hourly demand data reveal clear daily and seasonal rhythms, a U-shaped relationship with temperature, and the value—and limits—of weather-aware forecasting.\n\n\n122,736observations\n\n\n2019–2025study period\n\n\n333 MWbest average error\n\n\nRead the project story"
+  },
+  {
+    "objectID": "index.html#questions-i-have-been-exploring",
+    "href": "index.html#questions-i-have-been-exploring",
+    "title": "Thinking through the world, one question at a time.",
+    "section": "Questions I have been exploring",
+    "text": "Questions I have been exploring\n\n\nECONOMICS · ENERGY\n\nPost-COVID electricity demand\nHow lockdowns, hybrid work and rooftop solar changed electricity consumption across New South Wales and Victoria.\nRead the article\n\n\n\nECONOMICS · MANUFACTURING\n\nSoutheast Asia’s manufacturing risk\nWhy disruption in the Strait of Hormuz matters for energy-intensive manufacturers and regional supply chains.\nRead the article\n\n\n\nPOLITICS · IRAN\n\nIran at the threshold of transition\nAn examination of regional deterrence and the political foundations of the Islamic Republic.\nRead the article"
+  },
+  {
+    "objectID": "index.html#different-subjects-one-habit-of-inquiry",
+    "href": "index.html#different-subjects-one-habit-of-inquiry",
+    "title": "Thinking through the world, one question at a time.",
+    "section": "Different subjects, one habit of inquiry",
+    "text": "Different subjects, one habit of inquiry\n\n01EconomicsPolicy · Markets · Incentives 02PoliticsPower · Law · Institutions 03StatisticsData · Models · Uncertainty 04TheologyScripture · Tradition · Meaning"
+  },
+  {
+    "objectID": "index.html#models-matter.-so-do-their-limits.",
+    "href": "index.html#models-matter.-so-do-their-limits.",
+    "title": "Thinking through the world, one question at a time.",
+    "section": "Models matter. So do their limits.",
+    "text": "Models matter. So do their limits.\nI am interested in economics, geopolitics and applied statistics, particularly in the gap between elegant theory and messy reality. This site is where I work through those ideas in public."
   }
 ]
