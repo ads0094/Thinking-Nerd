@@ -259,13 +259,13 @@ main {
 
 /* Larger site navigation and post-directory typography. */
 .navbar-brand {
-  font-size: 1.45rem;
+  font-size: 1.6rem;
   font-weight: 600;
 }
 
 .navbar-nav .nav-link,
 .navbar-nav .dropdown-item {
-  font-size: 1.08rem;
+  font-size: 1.18rem;
 }
 
 .section-grey .content > p:first-child,
@@ -309,12 +309,12 @@ main {
 
 @media (max-width: 768px) {
   .navbar-brand {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
   }
 
   .navbar-nav .nav-link,
   .navbar-nav .dropdown-item {
-    font-size: 1rem;
+    font-size: 1.05rem;
   }
 
   .blog-link {
