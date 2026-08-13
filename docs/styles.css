@@ -826,6 +826,34 @@ main {
   text-align: center;
 }
 
+/* Keep the complete hero visible on wide, shorter laptop screens. */
+@media (min-width: 851px) and (max-height: 900px) {
+  .home-hero {
+    padding-top: 3.8rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .home-hero-inner {
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .home-hero h1 {
+    max-width: 760px;
+    font-size: clamp(3.2rem, 5vw, 4.6rem);
+  }
+
+  .home-deck {
+    margin-top: 1.2rem;
+    font-size: 1.12rem;
+    line-height: 1.5;
+  }
+
+  .home-actions { margin-top: 1.4rem; }
+  .home-hero-note { padding-top: 1.2rem; padding-bottom: 1.2rem; }
+  .home-hero-note blockquote { font-size: 1.45rem; }
+}
+
 @media (max-width: 850px) {
   .home-hero-inner,
   .home-feature { grid-template-columns: 1fr; }
