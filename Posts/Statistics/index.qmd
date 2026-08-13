@@ -20,13 +20,10 @@ description: "Writing on data, models and uncertainty from A Thinking Nerd."
 ::: category-content
 <p class="category-label">STATISTICAL WRITING</p>
 
-## This section is taking shape
+## Forecasting, inference and the limits of evidence
 
-::: category-empty
-<span>03</span>
-<strong>The questions are here. The articles are coming.</strong>
-<p>This section will contain work on statistical ideas, models and applied forecasting as the collection develops.</p>
-<a href="../../index.html#featured">View the featured forecasting project</a>
+::: category-list
+<a class="category-entry category-entry-featured" href="Forecast-Uncertainty.html"><span class="entry-index">01</span><span class="entry-copy"><small>FORECASTING · PREDICTION INTERVALS</small><strong>Why every forecast should show uncertainty</strong><em>A point forecast gives one answer. Prediction intervals show how much confidence we should place in it—and where that confidence can fail.</em></span><span class="entry-arrow">→</span></a>
 :::
 :::
 

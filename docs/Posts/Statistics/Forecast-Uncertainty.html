@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Writing on data, models and uncertainty from A Thinking Nerd.">
+<meta name="description" content="A point forecast gives one answer. Prediction intervals show how much confidence we should place in it—and where that confidence can fail.">
 
-<title>Statistics – The Thinking Nerd</title>
+<title>Why Every Forecast Should Show Uncertainty – The Thinking Nerd</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,25 +73,25 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Statistics – The Thinking Nerd">
-<meta property="og:description" content="Writing on data, models and uncertainty from A Thinking Nerd.">
-<meta property="og:image" content="https://ads0094.github.io/Thinking-Nerd/images/social-preview.png">
+<meta property="og:title" content="Why Every Forecast Should Show Uncertainty – The Thinking Nerd">
+<meta property="og:description" content="A point forecast gives one answer. Prediction intervals show how much confidence we should place in it—and where that confidence can fail.">
+<meta property="og:image" content="https://ads0094.github.io/Thinking-Nerd/images/forecast-uncertainty-single-forecast.png">
 <meta property="og:site_name" content="The Thinking Nerd">
 <meta property="og:image:alt" content="The Thinking Nerd: economics, policy, politics and data">
-<meta property="og:image:height" content="630">
-<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1116">
+<meta property="og:image:width" content="1800">
 <meta property="og:locale" content="en_AU">
-<meta name="twitter:title" content="Statistics – The Thinking Nerd">
-<meta name="twitter:description" content="Writing on data, models and uncertainty from A Thinking Nerd.">
-<meta name="twitter:image" content="https://ads0094.github.io/Thinking-Nerd/images/social-preview.png">
+<meta name="twitter:title" content="Why Every Forecast Should Show Uncertainty – The Thinking Nerd">
+<meta name="twitter:description" content="A point forecast gives one answer. Prediction intervals show how much confidence we should place in it—and where that confidence can fail.">
+<meta name="twitter:image" content="https://ads0094.github.io/Thinking-Nerd/images/forecast-uncertainty-single-forecast.png">
 <meta name="twitter:image:alt" content="The Thinking Nerd: economics, policy, politics and data">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="630">
-<meta name="twitter:image-width" content="1200">
-<link rel="canonical" href="https://ads0094.github.io/Thinking-Nerd/Posts/Statistics/">
+<meta name="twitter:image-height" content="1116">
+<meta name="twitter:image-width" content="1800">
+<link rel="canonical" href="https://ads0094.github.io/Thinking-Nerd/Posts/Statistics/Forecast-Uncertainty.html">
 </head>
 
-<body class="nav-fixed thinking-category-page category-statistics">
+<body class="nav-fixed standard-article">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -155,41 +155,137 @@ ul.task-list li input[type="checkbox"] {
 <main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header">
-<h1 class="title display-7">Statistics</h1>
+<h1 class="title display-7">Why Every Forecast Should Show Uncertainty</h1>
 
 </header>
 
 
-<div class="category-hero">
-<div class="category-hero-inner">
-<p class="category-number">
-03 / STATISTICS
+<div class="hero">
+<h1>
+Why Every Forecast Should Show Uncertainty
+</h1>
+<p>
+<em>A point forecast gives one answer. A prediction interval shows how uncertain that answer really is.</em>
 </p>
-<section id="data-models-and-what-uncertainty-permits-us-to-say." class="level1">
-<h1>Data, models and what uncertainty permits us to say.</h1>
-<p class="category-deck">
-A developing collection of writing on statistical reasoning, forecasting, inference and the limits of evidence.
+<p>
+Statistics · Forecasting · Uncertainty
 </p>
-<div class="category-keywords">
-<span>Probability</span><span>Inference</span><span>Uncertainty</span>
 </div>
+<div class="section-grey">
+<div class="content">
+<p>Published: August 14, 2026</p>
+<p>A forecast expressed as a single number can feel more certain than it deserves.</p>
+<p>Suppose a model predicts that Victorian food retailing turnover next month will be $2.7 billion. That number may be the model’s best central estimate, but it says nothing about whether $2.69 billion and $2.71 billion are the only credible outcomes, or whether anything from $2.5 billion to $2.9 billion would be unsurprising.</p>
+<p>This is the limitation of a <strong>point forecast</strong>. It compresses a range of possible futures into one value. Depending on the method and the decision being made, that value might be a mean, a median or another central summary. It is useful, but incomplete.</p>
+<p>A <strong>prediction interval</strong> adds the missing context. Instead of reporting only $2.7 billion, we might report an 80% interval from $2.55 billion to $2.85 billion and a 95% interval from $2.45 billion to $2.95 billion. The wider interval represents a higher level of coverage, not a second competing forecast.</p>
+<blockquote class="blockquote">
+<p>The interval does not weaken the forecast. It makes the forecast’s uncertainty visible.</p>
+</blockquote>
+<section id="what-does-an-80-prediction-interval-mean" class="level2">
+<h2 class="anchored" data-anchor-id="what-does-an-80-prediction-interval-mean">What does an 80% prediction interval mean?</h2>
+<p>The percentage requires careful interpretation. If a forecasting method is properly calibrated, then across many comparable forecasts, approximately 80% of observed outcomes should fall inside its 80% prediction intervals. Likewise, a well-calibrated 95% method should capture approximately 95% of outcomes.</p>
+<p>It does <strong>not</strong> mean that every set of ten 80% intervals must contain exactly eight observations. Nor does a result outside a 95% interval prove that the model is useless. Outcomes outside the interval should occur occasionally. The question is whether they occur about as often as the method claims.</p>
+<p>This repeated-forecast interpretation is central to the discussion of forecast distributions and prediction intervals in Hyndman and Athanasopoulos’ <a href="https://otexts.com/fpp3/prediction-intervals.html"><em>Forecasting: Principles and Practice</em></a>.</p>
+<p>The chart below uses monthly Victorian food retailing turnover from the <code>aus_retail</code> dataset supplied with the <code>fpp3</code> ecosystem. The model was fitted using information available through December 2017. The orange line shows what happened during 2018, which was unknown at the forecast date.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/forecast-uncertainty-single-forecast.png" class="article-chart img-fluid figure-img" alt="Monthly Victorian food retailing turnover before and after December 2017. The forecast is shown as a central line surrounded by a dark 80 per cent band and a wider light 95 per cent band. Actual 2018 turnover follows the expected seasonal pattern and remains within the bands."></p>
+<figcaption>An ETS forecast for Victorian food retailing turnover, showing a point forecast together with nested 80% and 95% prediction intervals and the values subsequently observed in 2018.</figcaption>
+</figure>
+</div>
+<p>The dark band is the 80% interval and the lighter outer band is the 95% interval. Both widen over the year. The point forecast remains a line, but the range of plausible outcomes grows as the model looks further ahead.</p>
 </section>
+<section id="why-uncertainty-usually-grows-with-the-horizon" class="level2">
+<h2 class="anchored" data-anchor-id="why-uncertainty-usually-grows-with-the-horizon">Why uncertainty usually grows with the horizon</h2>
+<p>A one-month-ahead forecast can use almost all the recent information available. A twelve-month-ahead forecast must pass through eleven intervening months that have not yet occurred. Each unknown step creates another opportunity for the future to depart from the model’s central path.</p>
+<p>That does not mean every interval must widen smoothly under every possible model. Seasonal information, known future events and changing predictor uncertainty can produce more complicated shapes. But increasing uncertainty with the forecast horizon is a common and sensible pattern.</p>
+<p>In the rolling ETS forecasts used here, the average 80% interval grew from about <strong>$153 million</strong> at one month ahead to <strong>$242 million</strong> at twelve months ahead. The corresponding 95% interval expanded from approximately <strong>$235 million</strong> to <strong>$371 million</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/forecast-uncertainty-horizon.png" class="article-chart img-fluid figure-img" alt="Two upward-sloping lines show average interval width increasing from one to twelve months ahead. The 95 per cent interval is consistently wider than the 80 per cent interval."></p>
+<figcaption>Average widths of 80% and 95% ETS prediction intervals for horizons from one to twelve months. Both increase as the forecast looks further ahead.</figcaption>
+</figure>
 </div>
-</div>
-<div class="category-content">
-<p class="category-label">
-STATISTICAL WRITING
-</p>
-<section id="forecasting-inference-and-the-limits-of-evidence" class="level2">
-<h2 class="anchored" data-anchor-id="forecasting-inference-and-the-limits-of-evidence">Forecasting, inference and the limits of evidence</h2>
-<div class="category-list">
-<p><a class="category-entry category-entry-featured" href="Forecast-Uncertainty.html"><span class="entry-index">01</span><span class="entry-copy"><small>FORECASTING · PREDICTION INTERVALS</small><strong>Why every forecast should show uncertainty</strong><em>A point forecast gives one answer. Prediction intervals show how much confidence we should place in it—and where that confidence can fail.</em></span><span class="entry-arrow">→</span></a></p>
-</div>
+<p>The widening bands communicate something the point forecast cannot: even if the expected seasonal pattern remains stable, confidence in the exact value declines with distance from the last observation.</p>
 </section>
+<section id="the-percentage-on-the-label-can-be-tested" class="level2">
+<h2 class="anchored" data-anchor-id="the-percentage-on-the-label-can-be-tested">The percentage on the label can be tested</h2>
+<p>An interval marked “95%” is making an empirical claim. We can check that claim by recreating forecasts at historical dates and comparing them with outcomes that were genuinely still in the future at each date.</p>
+<p>For this article, I used 441 monthly observations of Victorian food retailing turnover from April 1982 to December 2018. The series contained no missing months or missing turnover values. Starting in December 2013, I moved the forecast origin forward by two months at a time until December 2017. At each of 25 origins, three models produced forecasts for the next twelve months:</p>
+<ul>
+<li>a seasonal naïve model, which repeats the value from the same month one year earlier;</li>
+<li>an exponential smoothing model, or ETS; and</li>
+<li>a seasonal ARIMA model.</li>
+</ul>
+<p>This produced 300 forecast–outcome comparisons for each model. The exercise is a rolling historical backtest: no observation was used before it would have become available.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/forecast-uncertainty-coverage.png" class="article-chart img-fluid figure-img" alt="Grouped bars compare actual coverage with dotted target lines. ARIMA covers 96 and 100 per cent, ETS covers 94 and 100 per cent, and seasonal naive covers 69 and 90 per cent for nominal 80 and 95 per cent intervals respectively."></p>
+<figcaption>Observed coverage of nominal 80% and 95% prediction intervals from seasonal naive, ETS and seasonal ARIMA models across 300 rolling forecasts per model.</figcaption>
+</figure>
 </div>
-<footer class="category-footer">
+<p>The results show why interval labels should not simply be accepted.</p>
+<p>The seasonal naïve model captured only <strong>69.3%</strong> of outcomes inside its nominal 80% intervals and <strong>90.3%</strong> inside its nominal 95% intervals. Its intervals were too confident for this exercise.</p>
+<p>ETS and ARIMA went in the opposite direction. Their nominal 80% intervals captured <strong>94%</strong> and <strong>96%</strong> of outcomes respectively, while their 95% intervals captured every outcome in the test. Relative to the advertised rates, those intervals were conservative over this sample.</p>
+<p>Higher coverage is not automatically better. An infinitely wide interval would capture everything and tell us almost nothing. Good interval forecasts balance two properties:</p>
+<ul>
+<li><strong>coverage:</strong> outcomes fall inside at approximately the stated rate; and</li>
+<li><strong>sharpness:</strong> intervals remain as narrow as possible while maintaining reliable coverage.</li>
+</ul>
+<p>Formal interval scores, such as the Winkler score discussed in <a href="https://otexts.com/fpp3/distaccuracy.html">FPP3’s section on distributional forecast accuracy</a>, combine these concerns by penalising unnecessary width and observations that fall outside the interval.</p>
+<p>The percentages here are diagnostic rather than universal model rankings. They come from one retail series and overlapping forecast horizons, so the forecast errors are not independent. A model that appears conservative here may behave differently for another industry, period or type of shock.</p>
+</section>
+<section id="what-prediction-intervals-can-still-miss" class="level2">
+<h2 class="anchored" data-anchor-id="what-prediction-intervals-can-still-miss">What prediction intervals can still miss</h2>
+<p>Prediction intervals are conditional on a model and its assumptions. They reflect the forms of uncertainty the model has been designed to represent. They do not automatically anticipate strikes, pandemics, sudden regulatory changes, natural disasters or a permanent break in the behaviour of the series.</p>
+<p>The <code>ansett</code> dataset makes this limitation unusually visible. It contains weekly passenger numbers for Ansett Airlines and includes the major Australian pilots’ dispute of 1989. I aggregated passenger counts across the available routes and ticket classes, fitted a model using data available through week 30 of 1989, and forecast the following twenty weeks.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/forecast-uncertainty-ansett-shock.png" class="article-chart img-fluid figure-img" alt="Weekly Ansett passenger numbers fall from roughly 60 to 70 thousand to zero during seven highlighted weeks of the 1989 pilots' dispute, well below a 95 per cent forecast interval centred near 70 thousand."></p>
+<figcaption>An ARIMA forecast made before the 1989 Ansett pilots’ dispute. All seven zero-passenger weeks fall below the model’s 95% prediction interval.</figcaption>
+</figure>
+</div>
+<p>The point forecast expected passenger numbers to remain near their previous range. The 95% interval allowed for ordinary variation around that expectation. It did not allow for seven consecutive weeks with no passengers. All seven zero-passenger weeks fell outside the interval.</p>
+<p>That is not evidence that prediction intervals are pointless. It is evidence that they have boundaries. A model trained on ordinary airline variation had no mechanism for assigning substantial probability to an industry-wide dispute.</p>
+<p>The same issue appears when forecasts depend on future predictors. An electricity-demand model may use tomorrow’s temperature, but tomorrow’s temperature is itself forecast rather than known. As <a href="https://otexts.com/fpp3/forecasting-regression.html">FPP3 notes for regression forecasts</a>, an interval based on assumed predictor values may omit uncertainty about those future inputs and therefore be too narrow.</p>
+</section>
+<section id="prediction-interval-or-confidence-interval" class="level2">
+<h2 class="anchored" data-anchor-id="prediction-interval-or-confidence-interval">Prediction interval or confidence interval?</h2>
+<p>The two are often confused.</p>
+<p>A <strong>confidence interval</strong> usually describes uncertainty about an estimated quantity, such as a population mean or regression coefficient. A <strong>prediction interval</strong> describes uncertainty about a future observation. The future observation varies around the estimated relationship, so its prediction interval is usually wider than a confidence interval for the corresponding mean.</p>
+<p>If the practical question is “what value might we actually observe next month?”, a confidence interval around an average is not a substitute for a prediction interval.</p>
+</section>
+<section id="questions-to-ask-when-someone-presents-a-forecast" class="level2">
+<h2 class="anchored" data-anchor-id="questions-to-ask-when-someone-presents-a-forecast">Questions to ask when someone presents a forecast</h2>
+<p>Before relying on a forecast, it is worth asking:</p>
+<ol type="1">
+<li>Is this only a point forecast, or is uncertainty shown?</li>
+<li>What coverage level does the interval claim?</li>
+<li>Was that coverage checked using genuinely unseen outcomes?</li>
+<li>Does the interval widen appropriately over the forecast horizon?</li>
+<li>Does it account for uncertainty in future inputs?</li>
+<li>What types of structural change sit outside the model?</li>
+<li>Is the interval narrow enough to support the decision being made?</li>
+</ol>
+<p>No interval can remove uncertainty. Its job is to represent uncertainty honestly enough that a decision-maker can see the range of outcomes being accepted.</p>
+</section>
+<section id="the-takeaway" class="level2">
+<h2 class="anchored" data-anchor-id="the-takeaway">The takeaway</h2>
+<p>A point forecast answers a convenient question: <strong>what is the central estimate?</strong></p>
+<p>A prediction interval answers the harder and often more useful question: <strong>how far from that estimate could the outcome reasonably move, given the model and what it knows?</strong></p>
+<p>The interval still needs to be tested. It may be too narrow, unnecessarily wide or blind to a structural shock. But without it, the reader cannot even begin to distinguish a dependable central estimate from false precision.</p>
+</section>
+<section id="data-and-method-notes" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-method-notes">Data and method notes</h2>
+<p>The retail analysis uses Victorian “Food retailing” turnover from <a href="https://tsibbledata.tidyverts.org/reference/aus_retail.html"><code>tsibbledata::aus_retail</code></a>, originally sourced from the Australian Bureau of Statistics. The Ansett example uses <a href="https://tsibbledata.tidyverts.org/reference/ansett.html"><code>tsibbledata::ansett</code></a>. Both datasets are made available through the tidyverts packages loaded by <code>fpp3</code>.</p>
+<p>The retail backtest used every second monthly origin from December 2013 through December 2017 and evaluated horizons from one to twelve months. ETS and seasonal ARIMA were fitted to log turnover; the ARIMA specification was held fixed across forecast origins. The Ansett chart uses an ARIMA model fitted to log-transformed total passenger counts. The complete calculations and chart generation are recorded in <code>scripts/create_forecast_uncertainty_analysis.R</code> within the site project.</p>
+<p>The conceptual explanation follows Rob J Hyndman and George Athanasopoulos, <a href="https://otexts.com/fpp3/"><em>Forecasting: Principles and Practice</em>, third edition</a>, particularly its sections on the statistical forecasting perspective, prediction intervals and distributional forecast evaluation.</p>
+<footer class="site-footer">
 © 2026 A Thinking Nerd | All thoughts my own.
 </footer>
+</section>
+</div>
+</div>
 
 
 

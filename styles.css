@@ -1228,10 +1228,10 @@ main {
 
 /* Editorial layout for regular articles. The Victoria data feature stays distinct. */
 .standard-article {
-  --article-accent: #c8892d;
-  --article-accent-soft: #ead4ae;
+  --article-accent: #d7922a;
+  --article-accent-soft: #f1ba52;
   overflow-x: hidden;
-  background: #f3f0e9;
+  background: #f4f0e7;
   color: #172733;
 }
 
@@ -1250,7 +1250,7 @@ main {
   align-items: flex-start;
   justify-content: flex-end;
   text-align: left;
-  background: #092c47;
+  background: #002244;
 }
 
 .standard-article .hero::before {
@@ -1306,7 +1306,7 @@ main {
   min-height: 0;
   padding: 4.8rem 1.5rem 5.5rem;
   display: block;
-  background: #f3f0e9;
+  background: #f4f0e7;
 }
 
 .standard-article .section-grey::before,
@@ -1341,7 +1341,7 @@ main {
 .standard-article .content h4,
 .standard-article .content h5 {
   margin: 3.2rem 0 1rem;
-  color: #0b304a;
+  color: #002244;
   font-family: Georgia, 'Times New Roman', serif;
   font-size: clamp(1.65rem, 3vw, 2.15rem);
   font-weight: 600;
@@ -1361,7 +1361,7 @@ main {
 }
 
 .standard-article .content a {
-  color: #075d75;
+  color: #002244;
   text-decoration-color: var(--article-accent);
   text-underline-offset: .18em;
 }
