@@ -1292,12 +1292,15 @@ main {
 .standard-article main { max-width: none; }
 
 .standard-article .hero {
-  min-height: 390px;
-  padding: 6.5rem max(2rem, calc((100vw - 980px) / 2)) 5.4rem;
+  /* Site-wide article standard based on the Hormuz post. Change only on request. */
+  height: 416px;
+  min-height: 416px;
+  padding: 3rem max(2rem, calc((100vw - 980px) / 2));
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: center;
+  overflow: hidden;
   text-align: left;
   background: #002244;
 }
@@ -1326,7 +1329,7 @@ main {
   margin: 0 0 1rem;
   color: #fffdf7;
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: clamp(2.8rem, 5.4vw, 5.2rem);
+  font-size: clamp(2.8rem, 4.25vw, 3.4rem);
   font-weight: 500;
   line-height: 1.02;
   letter-spacing: -.035em;
@@ -1337,7 +1340,7 @@ main {
   margin: 0 0 1.35rem;
   color: #dce6e9;
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  font-size: clamp(1.1rem, 1.7vw, 1.25rem);
   line-height: 1.5;
 }
 
@@ -1353,7 +1356,7 @@ main {
 .standard-article .section-grey,
 .standard-article .section-grey-politics {
   min-height: 0;
-  padding: 4.8rem 1.5rem 5.5rem;
+  padding: 2.4rem 1.5rem 5.5rem;
   display: block;
   background: #f4f0e7;
 }
@@ -1451,8 +1454,11 @@ main {
 
 @media (max-width: 700px) {
   .standard-article .hero {
+    height: auto;
     min-height: 330px;
     padding: 5rem 1.4rem 3.8rem;
+    justify-content: flex-end;
+    overflow: visible;
   }
 
   .standard-article .hero::after {
@@ -1461,12 +1467,12 @@ main {
   }
 
   .standard-article .hero h1 {
-    font-size: clamp(2.45rem, 12vw, 3.7rem);
+    font-size: clamp(2.4rem, 11vw, 3rem);
   }
 
   .standard-article .section-grey,
   .standard-article .section-grey-politics {
-    padding: 3.2rem 1.35rem 4rem;
+    padding: 2.2rem 1.35rem 4rem;
   }
 
   .standard-article .section-grey .content,

@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Writing on data, models and uncertainty from A Thinking Nerd.">
+<meta name="description" content="A complicated forecast still has to prove that it can beat a sensible benchmark on data it has not seen.">
 
-<title>Statistics – The Thinking Nerd</title>
+<title>Why Simple Forecasting Models Are Difficult to Beat – The Thinking Nerd</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,25 +73,25 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Statistics – The Thinking Nerd">
-<meta property="og:description" content="Writing on data, models and uncertainty from A Thinking Nerd.">
-<meta property="og:image" content="https://ads0094.github.io/Thinking-Nerd/images/social-preview.png">
+<meta property="og:title" content="Why Simple Forecasting Models Are Difficult to Beat – The Thinking Nerd">
+<meta property="og:description" content="A complicated forecast still has to prove that it can beat a sensible benchmark on data it has not seen.">
+<meta property="og:image" content="https://ads0094.github.io/Thinking-Nerd/images/simple-forecasting-overall-accuracy.png">
 <meta property="og:site_name" content="The Thinking Nerd">
 <meta property="og:image:alt" content="The Thinking Nerd: economics, policy, politics and data">
-<meta property="og:image:height" content="630">
-<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1044">
+<meta property="og:image:width" content="1692">
 <meta property="og:locale" content="en_AU">
-<meta name="twitter:title" content="Statistics – The Thinking Nerd">
-<meta name="twitter:description" content="Writing on data, models and uncertainty from A Thinking Nerd.">
-<meta name="twitter:image" content="https://ads0094.github.io/Thinking-Nerd/images/social-preview.png">
+<meta name="twitter:title" content="Why Simple Forecasting Models Are Difficult to Beat – The Thinking Nerd">
+<meta name="twitter:description" content="A complicated forecast still has to prove that it can beat a sensible benchmark on data it has not seen.">
+<meta name="twitter:image" content="https://ads0094.github.io/Thinking-Nerd/images/simple-forecasting-overall-accuracy.png">
 <meta name="twitter:image:alt" content="The Thinking Nerd: economics, policy, politics and data">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="630">
-<meta name="twitter:image-width" content="1200">
-<link rel="canonical" href="https://ads0094.github.io/Thinking-Nerd/Posts/Statistics/">
+<meta name="twitter:image-height" content="1044">
+<meta name="twitter:image-width" content="1692">
+<link rel="canonical" href="https://ads0094.github.io/Thinking-Nerd/Posts/Statistics/Simple-Forecasting-Models.html">
 </head>
 
-<body class="nav-fixed thinking-category-page category-statistics">
+<body class="nav-fixed standard-article">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -155,43 +155,107 @@ ul.task-list li input[type="checkbox"] {
 <main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header">
-<h1 class="title display-7">Statistics</h1>
+<h1 class="title display-7">Why Simple Forecasting Models Are Difficult to Beat</h1>
 
 </header>
 
 
-<div class="category-hero">
-<div class="category-hero-inner">
-<p class="category-number">
-03 / STATISTICS
+<div class="hero">
+<h1>
+Why Simple Forecasting Models Are Difficult to Beat
+</h1>
+<p>
+<em>A complicated model may fit the past well. It still has to forecast the future better than a sensible rule.</em>
 </p>
-<section id="data-models-and-what-uncertainty-permits-us-to-say." class="level1">
-<h1>Data, models and what uncertainty permits us to say.</h1>
-<p class="category-deck">
-A developing collection of writing on statistical reasoning, forecasting, inference and the limits of evidence.
+<p>
+Statistics · Forecasting · Model evaluation
 </p>
-<div class="category-keywords">
-<span>Probability</span><span>Inference</span><span>Uncertainty</span>
+</div>
+<div class="section-grey">
+<div class="content">
+<p>Published: August 25, 2026</p>
+<p>When a forecasting project begins, most of the attention usually goes to the model: which method to use, which variables to include and how far its parameters should be tuned. That is understandable, but it can put the process in the wrong order. Before deciding whether a model is good, we need to know what it improves upon.</p>
+<p>Consider an average forecast error of $40 million. The figure looks precise, yet on its own it tells us very little. If a simple seasonal rule produces roughly the same error, the additional model may not be worth maintaining. If that rule produces an error of $80 million, the more formal model has clearly added something useful.</p>
+<p>For that reason, a credible benchmark should be established early in a forecasting exercise. This is standard forecasting practice: its purpose is not simply to make the analysis look complete, but to give the final accuracy result something meaningful to beat.</p>
+<section id="start-with-something-sensible" class="level2">
+<h2 class="anchored" data-anchor-id="start-with-something-sensible">Start with something sensible</h2>
+<p>The choice of benchmark should reflect the way the series behaves. For short term electricity demand, yesterday or the same day last week may offer a reasonable starting point. Monthly retail turnover follows a strong annual pattern, which makes a seasonal naïve forecast more suitable. It simply uses the value observed in the same month of the previous year.</p>
+<p>At first glance, that rule can seem too crude to be useful. It nevertheless preserves the main seasonal structure without estimating a large number of relationships, and it leaves little room for the model to mistake temporary noise for a persistent pattern.</p>
+<p>Other familiar benchmarks include the historical mean, the latest observation and a drift forecast based on the average change over time. <a href="https://otexts.com/fpp3/simple-methods.html"><em>Forecasting: Principles and Practice</em></a> recommends these methods because they are often surprisingly competitive. Even when a more formal model wins, the benchmark tells us how much has actually been gained.</p>
+</section>
+<section id="what-i-compared" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-compared">What I compared</h2>
+<p>For the comparison, I returned to the monthly Victorian food retailing series used in my article on forecast uncertainty. The data, measured in millions of Australian dollars, come from the Australian Bureau of Statistics and are supplied through <a href="https://tsibbledata.tidyverts.org/reference/aus_retail.html"><code>tsibbledata::aus_retail</code></a>.</p>
+<p>Rather than fitting the models once and judging them on the same observations, I followed the rolling forecast origin approach described in FPP3. I repeated the exercise at 25 historical cutoff dates between December 2013 and December 2017. At each date, the models used only the information available at that time and forecast the following twelve months. As the cutoff moved forward, the models were estimated again with the newly available history.</p>
+<p>I compared three procedures:</p>
+<ol type="1">
+<li>a seasonal naïve forecast;</li>
+<li>an ETS model fitted to log turnover; and</li>
+<li>a seasonal ARIMA model fitted to log turnover.</li>
+</ol>
+<p>The ETS description deserves some precision. At every origin, <code>ETS(log(Turnover))</code> compared the eligible ETS structures using AICc and selected <code>ETS(A,A,A)</code>. The letters refer, in order, to the error, trend and seasonal components, all of which were additive on the log scale. Although the structure remained the same, the smoothing parameters were estimated again at each origin. This is the automatic selection procedure described in the <a href="https://fable.tidyverts.org/reference/ETS.html">fable documentation</a> and the <a href="https://otexts.com/fpp3/ets-estimation.html">ETS model selection chapter of FPP3</a>.</p>
+<p>For ARIMA, I held the specification fixed at <code>ARIMA(0,1,1)(0,1,1)[12]</code>. The exercise was therefore a comparison of three defined forecasting procedures rather than a search across every possible ETS and ARIMA variation.</p>
+<p>The cutoff moved forward by two months at a time, and each date produced forecasts for the following twelve months. This resulted in 25 forecast origins and 300 forecast comparisons for each method. The chart below shows the final set of forecasts, made in December 2017, alongside the turnover values that were later observed during 2018.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/simple-forecasting-one-year.png" class="article-chart img-fluid figure-img" alt="Monthly Victorian food retailing turnover from 2015 to 2018. Three forecast lines begin after December 2017 and are compared with the values observed during 2018."></p>
+<figcaption>Forecasts from seasonal naive, ETS and ARIMA models made in December 2017, followed by monthly Victorian food retailing turnover observed during 2018.</figcaption>
+</figure>
+</div>
+<p>All three methods capture the broad seasonal movement, though their predicted levels differ, especially in the seasonal naïve forecast. Looking at a single year is informative, but it is not enough to decide which method performed best; that judgement needs the full set of historical forecasts.</p>
+</section>
+<section id="in-this-case-ets-won-clearly" class="level2">
+<h2 class="anchored" data-anchor-id="in-this-case-ets-won-clearly">In this case, ETS won clearly</h2>
+<p>Across the 300 comparisons, ETS produced a mean absolute error of <strong>$40.6 million</strong>, followed by ARIMA at <strong>$43.5 million</strong>. The seasonal naïve benchmark was much less accurate, with an error of <strong>$81.2 million</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/simple-forecasting-overall-accuracy.png" class="article-chart img-fluid figure-img" alt="Three bars compare mean absolute error. ETS has the lowest error at about 41 million dollars, ARIMA is close at about 44 million, and seasonal naive is highest at about 81 million."></p>
+<figcaption>Mean absolute forecast error from seasonal naive, ETS and ARIMA models across 300 historical forecast comparisons per method.</figcaption>
+</figure>
+</div>
+<p>For this series and evaluation period, ETS reduced the average absolute error by about 50 per cent relative to the benchmark, while ARIMA reduced it by roughly 46 per cent. The additional modelling was justified, at least according to this measure.</p>
+<p>What makes that conclusion useful is the comparison itself. An ETS error of $40.6 million does not carry an obvious meaning in isolation. Once it is placed beside the $81.2 million seasonal benchmark, the scale of the improvement becomes clear.</p>
+</section>
+<section id="the-advantage-changed-with-the-forecast-horizon" class="level2">
+<h2 class="anchored" data-anchor-id="the-advantage-changed-with-the-forecast-horizon">The advantage changed with the forecast horizon</h2>
+<p>The size of the advantage also changed with the forecast horizon. At one month ahead, the ETS error was only 29 per cent of the seasonal naïve error. By twelve months ahead, it had risen to 72 per cent. ETS remained more accurate throughout the exercise, although its lead narrowed as the forecasts extended further into the future.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../images/simple-forecasting-horizon-accuracy.png" class="article-chart img-fluid figure-img" alt="Two lines show ETS and ARIMA error relative to a seasonal naive benchmark of 100 per cent. Both methods remain below the benchmark from one to twelve months ahead, but their relative error increases at longer horizons."></p>
+<figcaption>Mean absolute error from ETS and ARIMA at each forecast horizon relative to the seasonal naive benchmark.</figcaption>
+</figure>
 </div>
 </section>
-</div>
-</div>
-<div class="category-content">
-<p class="category-label">
-STATISTICAL WRITING
-</p>
-<section id="forecasting-inference-and-the-limits-of-evidence" class="level2">
-<h2 class="anchored" data-anchor-id="forecasting-inference-and-the-limits-of-evidence">Forecasting, inference and the limits of evidence</h2>
-<div class="category-list">
-<p><a class="category-entry category-entry-featured" href="Forecast-Uncertainty.html"><span class="entry-index">01</span><span class="entry-copy"><small>FORECASTING · PREDICTION INTERVALS</small><strong>Why every forecast should show uncertainty</strong><em>A point forecast gives one answer. Prediction intervals show how much confidence we should place in it—and where that confidence can fail.</em></span><span class="entry-arrow">→</span></a></p>
-<p><a class="category-entry" href="Ecological-Correlation.html"><span class="entry-index">02</span><span class="entry-copy"><small>CORRELATION · ECOLOGICAL FALLACY</small><strong>The ecological fallacy: why group-level patterns may not describe individuals</strong><em>Why a relationship observed across suburbs, states or countries may not describe the individuals living within them.</em></span><span class="entry-arrow">→</span></a></p>
-<p><a class="category-entry" href="Simple-Forecasting-Models.html"><span class="entry-index">03</span><span class="entry-copy"><small>FORECASTING · MODEL EVALUATION</small><strong>Why simple forecasting models are difficult to beat</strong><em>A complicated model has to do more than fit the past. It has to beat a credible benchmark on observations it has never seen.</em></span><span class="entry-arrow">→</span></a></p>
-</div>
+<section id="why-complexity-can-still-disappoint" class="level2">
+<h2 class="anchored" data-anchor-id="why-complexity-can-still-disappoint">Why complexity can still disappoint</h2>
+<p>More flexible models have a greater chance of capturing useful patterns, provided those patterns are stable. The difficulty is that flexibility also makes it easier to fit relationships that belong only to the training period, particularly when the available series is short.</p>
+<p>Forecasting relationships may weaken after a policy change, a pandemic or a shift in consumer behaviour. Predictors bring their own complications as well. When a demand forecast uses tomorrow’s temperature, for example, part of its performance depends on a weather forecast that is itself uncertain.</p>
+<p>Model selection can introduce a subtler problem. If many alternatives are repeatedly judged against the same test period, that period begins to influence the choice even though its observations never appear directly in model estimation. What was intended to be an independent test can gradually become part of the tuning process.</p>
+<p>Because simple methods estimate very little, they are less exposed to some of these problems. This does not make them automatically superior; it explains why a more complicated method should be required to demonstrate its advantage.</p>
 </section>
-</div>
-<footer class="category-footer">
+<section id="what-the-broader-evidence-shows" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-broader-evidence-shows">What the broader evidence shows</h2>
+<p>The history of forecasting competitions offers a broader version of the same lesson. In the <a href="https://doi.org/10.1016/j.ijforecast.2018.06.001">M4 competition</a>, 61 methods were evaluated across 100,000 time series. Twelve of the 17 most accurate methods were combinations built mainly from statistical approaches. A hybrid method won the competition, while the pure machine learning entries did not beat its main combination benchmark.</p>
+<p>By the time of the <a href="https://doi.org/10.1016/j.ijforecast.2021.11.013">M5 accuracy competition</a>, the setting was different. The competition used 42,840 related Walmart sales series together with information such as prices and calendar events. Global machine learning methods performed strongly because they could learn across many connected series and draw on information unavailable to a basic time series model.</p>
+<p>These results do not establish that one family of methods is generally better than another. Rather, they show why the usefulness of complexity depends on the structure of the data, the forecast horizon and the information available when the forecast is made.</p>
+</section>
+<section id="what-i-take-from-the-comparison" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-take-from-the-comparison">What I take from the comparison</h2>
+<p>In this particular test, the seasonal naïve model lost by a wide margin. That is not a failure of benchmarking, since a benchmark is not there to protect a simple method from losing. Its role is to make any improvement visible and measurable.</p>
+<p>Had ETS matched the seasonal naïve result, there would have been little reason to prefer it. Instead, it roughly halved the average error across periods that were genuinely still in the future, which provides a clear case for the added modelling.</p>
+<p>The practical lesson is to begin with a credible simple forecast, reproduce the conditions in which the model will actually be used and then compare the alternatives on unseen periods. Complexity is worthwhile when that evidence supports it.</p>
+</section>
+<section id="data-and-method-notes" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-method-notes">Data and method notes</h2>
+<p>The analysis uses monthly Victorian “Food retailing” turnover from <a href="https://tsibbledata.tidyverts.org/reference/aus_retail.html"><code>tsibbledata::aus_retail</code></a>. The dataset identifies the Australian Bureau of Statistics, catalogue 8501.0, table 11, as its original source. The selected series contains 441 observations from April 1982 to December 2018, with no missing months or missing turnover values.</p>
+<p>The backtest moved forward by two months at a time from December 2013 to December 2017. Each of the 25 origins produced forecasts for horizons from one to twelve months. Mean absolute error was calculated from the same 300 future observations for each method. I also recalculated the figures with <code>fabletools::accuracy()</code>, which returned the same MAE and RMSE results as the direct error calculations.</p>
+<p>The evaluation design follows the principles described in FPP3’s sections on <a href="https://otexts.com/fpp3/accuracy.html">point forecast accuracy</a> and <a href="https://otexts.com/fpp3/tscv.html">time series cross validation</a>.</p>
+<footer class="site-footer">
 © 2026 A Thinking Nerd | All thoughts my own.
 </footer>
+</section>
+</div>
+</div>
 
 
 

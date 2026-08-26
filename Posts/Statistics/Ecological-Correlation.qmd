@@ -1,0 +1,99 @@
+---
+title: "The Ecological Fallacy: Why Group-Level Patterns May Not Describe Individuals"
+page-layout: full
+link-citations: true
+body-classes: standard-article
+description: "Why a relationship observed across suburbs, states or countries may not describe the individuals living within them."
+---
+
+::: hero
+<h1>The Ecological Fallacy: Why Group-Level Patterns May Not Describe Individuals</h1>
+
+<p><em>Group-level patterns can be useful. The trouble begins when we assume that they also describe individuals.</em></p>
+
+<p>Statistics · Correlation · Evidence</p>
+:::
+
+:::: section-grey
+::: content
+
+Published:
+August 18, 2026
+
+Suppose we compare Australian suburbs and find that places with higher average household incomes also tend to have higher rates of rooftop-solar adoption.
+
+That would be a correlation between **suburbs**. It might help identify where solar adoption is concentrated, but it would not establish that the higher-income households within each suburb are necessarily the households installing solar.
+
+Perhaps home ownership is more common in those suburbs. Perhaps the housing stock contains more detached homes with suitable roofs. Local incentives, electricity prices and the age of the buildings could also matter. The suburb-level pattern does not reveal which explanation is correct.
+
+> A relationship between group averages does not automatically describe the people inside those groups.
+
+## Two different questions
+
+An **individual correlation** relates characteristics measured for individuals. For example: across households, is household income associated with whether that household has rooftop solar?
+
+An **ecological correlation** relates characteristics measured for groups. The corresponding question might be: across suburbs, is average household income associated with the suburb's solar-adoption rate?
+
+These questions sound similar, but the unit being analysed is different. One concerns households; the other concerns suburbs.
+
+The ecological correlation is not inherently incorrect. It answers a legitimate group-level question. The error occurs when evidence about suburbs is used to make a claim about households without household-level evidence. This is known as the **ecological fallacy**.
+
+## Why aggregation changes the picture
+
+A suburb average compresses a large amount of variation into one number. Two suburbs can have the same average income while containing very different mixtures of households. One might have incomes clustered near the average; another might combine a small number of very high-income households with many lower-income households.
+
+The same is true of solar adoption. A suburb-level rate tells us how common solar is across the area, but not how adoption is distributed among renters, homeowners, apartment residents or different income groups.
+
+Once individual observations are replaced with group averages, the variation within each group disappears. A strong pattern across suburbs can therefore coexist with a weak, absent or even reversed pattern among households.
+
+This problem was set out clearly by W. S. Robinson in his 1950 paper, [“Ecological Correlations and the Behavior of Individuals”](https://doi.org/10.2307/2087176). Robinson is included here as the historical source of the argument, rather than as the only authority on how the problem should be handled today.
+
+## What more recent research adds
+
+The warning has not disappeared with newer data or more powerful software. A [2021 methodological review](https://doi.org/10.1111/nep.13861) explains that ecological studies remain useful for comparing populations, studying trends and generating hypotheses. It also emphasises that aggregated data make it difficult to know whether the people experiencing an outcome are the same people exposed to the characteristic being studied. Confounding can therefore be particularly difficult to resolve.
+
+Recent work places greater emphasis on matching the research question, data and conclusion to the same level. A [2023 guide to rigorous multilevel research](https://doi.org/10.1186/s13012-023-01302-2) recommends stating clearly whether each variable and conclusion concerns individuals, organisations or larger groups. Precise language is part of the statistical discipline: “suburbs with higher average incomes had more rooftop solar” is supported by suburb-level data; “higher-income households were more likely to install solar” is a different claim.
+
+A [2025 simulation study](https://doi.org/10.1186/s12874-025-02504-6) compared ecological and multilevel analyses using data with a known hierarchical structure. When the target was an individual-level causal effect, estimates from aggregated ecological models were generally more variable and less robust than estimates from multilevel analyses using individual data. The study reinforces an important limitation: individual-level causal questions ordinarily require individual-level information.
+
+Multilevel models can help separate variation within groups from variation between groups when suitable data are available. They are not an automatic cure. The model must still represent the relevant levels, variables, confounding and causal assumptions; it cannot recover individual information that was never collected.
+
+## Group-level evidence still has a purpose
+
+The lesson is not that area-level data should be avoided. If the question concerns areas, ecological data may be exactly what is needed.
+
+A government deciding where electricity networks may require upgrades could reasonably study solar adoption by suburb. A public-health agency allocating regional services may need information about communities rather than named individuals. In both cases, the level of the evidence matches the level of the decision.
+
+Problems arise when the conclusion quietly changes level. A statement about places becomes a statement about the people living there.
+
+## A useful check
+
+Whenever a correlation is presented, it helps to ask four questions:
+
+1. What is the unit of observation: people, households, suburbs, states or countries?
+2. At what level is the conclusion being made?
+3. Does the available evidence actually connect those two levels?
+4. Could differences in composition or an unmeasured factor explain the group-level pattern?
+
+If the data describe groups but the conclusion describes individuals, more information is needed. Individual-level data, or a model that explicitly represents both individual and group-level variation, may help answer the intended question.
+
+## The takeaway
+
+Ecological correlations can reveal meaningful differences between places. They can support planning, comparison and the study of regional patterns.
+
+What they cannot do on their own is tell us how individuals within those places behave.
+
+Before interpreting any correlation, check the unit of analysis. The calculation may be correct while the conclusion drawn from it is not.
+
+## Further reading
+
+The article draws on the following methodological sources:
+
+- W. S. Robinson's foundational 1950 article, [“Ecological Correlations and the Behavior of Individuals”](https://doi.org/10.2307/2087176).
+- Roumeliotis and colleagues' 2021 review, [“Be Careful with Ecological Associations”](https://doi.org/10.1111/nep.13861).
+- A 2023 guide, [“Eight Characteristics of Rigorous Multilevel Implementation Research”](https://doi.org/10.1186/s13012-023-01302-2), which discusses aligning analysis and inference across levels.
+- A 2025 simulation study, [“Simulating Hierarchical Data to Assess the Utility of Ecological versus Multilevel Analyses in Obtaining Individual-Level Causal Effects”](https://doi.org/10.1186/s12874-025-02504-6).
+
+<footer class="site-footer">© 2026 A Thinking Nerd | All thoughts my own.</footer>
+:::
+::::

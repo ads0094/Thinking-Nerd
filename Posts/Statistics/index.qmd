@@ -24,6 +24,10 @@ description: "Writing on data, models and uncertainty from A Thinking Nerd."
 
 ::: category-list
 <a class="category-entry category-entry-featured" href="Forecast-Uncertainty.html"><span class="entry-index">01</span><span class="entry-copy"><small>FORECASTING · PREDICTION INTERVALS</small><strong>Why every forecast should show uncertainty</strong><em>A point forecast gives one answer. Prediction intervals show how much confidence we should place in it—and where that confidence can fail.</em></span><span class="entry-arrow">→</span></a>
+
+<a class="category-entry" href="Ecological-Correlation.html"><span class="entry-index">02</span><span class="entry-copy"><small>CORRELATION · ECOLOGICAL FALLACY</small><strong>The ecological fallacy: why group-level patterns may not describe individuals</strong><em>Why a relationship observed across suburbs, states or countries may not describe the individuals living within them.</em></span><span class="entry-arrow">→</span></a>
+
+<a class="category-entry" href="Simple-Forecasting-Models.html"><span class="entry-index">03</span><span class="entry-copy"><small>FORECASTING · MODEL EVALUATION</small><strong>Why simple forecasting models are difficult to beat</strong><em>A complicated model has to do more than fit the past. It has to beat a credible benchmark on observations it has never seen.</em></span><span class="entry-arrow">→</span></a>
 :::
 :::
 
